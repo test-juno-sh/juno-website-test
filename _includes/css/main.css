@@ -146,10 +146,11 @@ a:focus {
 }
 
 .btn-theme {
-  color: #fff;
-  background-color: {{ site.colors.secondary }};
+  background-color: rgba(0, 0, 0, 0);
+  color: {{ site.colors.secondary }};
   border-color: {{ site.colors.secondary }};
-  margin: 4px;
+  margin: 6px;
+  font-size: 16px;
 }
 .btn-theme:hover,
 .btn-theme:focus,
