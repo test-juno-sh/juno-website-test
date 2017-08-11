@@ -1,0 +1,79 @@
+---
+layout: post
+title: "Connecting via HTTPS"
+date: 2017-08-11 20:54:46
+author: Alex Staravoitau
+---
+
+```bash
+# Update openssl.cnf:
+# - Set $dir to root directory for keys and certificates.
+# - Provide server address in [ alt_names ].
+
+# Go to the root directory of where to store all keys and certificates.
+
+mkdir ca
+cd ca
+
+# Create the directory structure. The index.txt and serial files act as a flat file database to keep track of signed certificates.
+
+mkdir certs crl newcerts private
+chmod 700 private
+touch index.txt
+echo 1000 > serial
+
+# Create the CA root key (protecting it with a pass phrase).
+
+openssl genrsa -aes256 -out private/ca.key.pem 4096
+chmod 400 private/ca.key.pem
+
+# Use the root key (ca.key.pem) to create a root certificate (ca.cert.pem). Enter your private key pass phrase from the previous step and provide information that will be incorporated into your certificate request.
+
+openssl req -config ../openssl_jupyter_ca.cnf \
+      -key private/ca.key.pem \
+      -new -x509 -days 7300 -sha256 -extensions v3_ca \
+      -out certs/ca.cert.pem
+chmod 444 certs/ca.cert.pem
+
+# Verify the root certificate.
+
+openssl x509 -noout -text -in certs/ca.cert.pem
+
+# Generate new server key.
+
+cd ..
+mkdir jupyter
+cd jupyter
+
+mkdir csr certs private
+chmod 700 private
+openssl genrsa -out private/ssl.key.pem 2048
+chmod 400 private/ssl.key.pem
+
+# Request certificate for your server. Enter your private key pass phrase from the previous step and provide information that will be incorporated into your certificate request.
+
+openssl req -config ../openssl_jupyter_ca.cnf \
+      -key private/ssl.key.pem \
+      -new -sha256 -out csr/ssl.csr.pem
+
+# Issue a new server certificate.
+
+openssl ca -config ../openssl_jupyter_ca.cnf \
+      -extensions server_cert -days 1024 -notext -md sha256 \
+      -in csr/ssl.csr.pem \
+      -out certs/ssl.cert.pem
+chmod 444 certs/ssl.cert.pem
+
+# Verify new certificate.
+
+openssl x509 -noout -text \
+      -in certs/ssl.cert.pem
+
+# Verify certificate chain of trust.
+
+cd ..
+openssl verify -CAfile ca/certs/ca.cert.pem \
+      jupyter/certs/ssl.cert.pem
+
+# Install CA certificate on iPad and enable full trust: https://support.apple.com/en-gb/HT204477.
+```

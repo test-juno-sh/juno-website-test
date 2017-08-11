@@ -1,0 +1,20 @@
+---
+layout: post
+title: "FAQ"
+date: 2017-08-11 20:54:46
+author: Alex Staravoitau
+---
+#### My keyboard doesn’t have an Esc key
+Use Control key instead.
+
+#### I have a self-signed certificate
+Use instruction to issue a certificate properly.
+
+#### I discovered a defect
+Send an e-mail to feedback@kernels.io
+
+#### I need help
+Send e-mail to help@kernels.io
+
+#### I want a feature
+Check with a list of upcoming features and send email to feedback@kernels.io
