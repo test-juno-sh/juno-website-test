@@ -21,15 +21,6 @@ colors:  #in hex code if not noted else
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
-# Making projects separate from posts
-collections:
-  projects:
-    output: true
-    permalink: /projects/:title/
-  questions:
-    output: true
-    permalink: /questions/:title/
-
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
@@ -58,4 +49,4 @@ tel: +34 8493-4893
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "We believe developers and researchers deserve better tools. So we build Kernels, a Jupyter Notebook client for iPad: Kernels lets you connect to a remote server running Jupyter Notebook and use it on-the-go."
+about: "We believe developers and researchers deserve better tools — that's why we built Kernels, a Jupyter Notebook client for iPad. Kernels lets you connect to a remote server running Jupyter Notebook and use it on-the-go."
