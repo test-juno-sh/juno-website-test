@@ -523,3 +523,7 @@ code, pre, tt {
 	padding: 2px 5px;
 	-webkit-font-smoothing: antialiased;
 }
+
+.post-content {
+	max-width: 850px;
+}
