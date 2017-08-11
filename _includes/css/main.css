@@ -162,6 +162,31 @@ a:focus {
   border-color: {{ site.colors.primary }};
 }
 
+.btn-beta {
+  background-color: rgba(0, 0, 0, 0);
+  color: #EB5C00;
+  border-color: #EB5C00;
+}
+
+h1 .btn-beta {
+  margin: 8px;
+  font-size: 18px;
+  padding-top: 0.35rem;
+  padding-right: 1rem;
+  padding-bottom: 0.45rem;
+  padding-left: 1rem;
+}
+
+.btn-beta:hover,
+.btn-beta:focus,
+.btn-beta:active,
+.btn-beta.active,
+.open .dropdown-toggle.btn-beta {
+  color: #fff;
+  background-color: #EB5C00;
+  border-color: #EB5C00;
+}
+
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus{
