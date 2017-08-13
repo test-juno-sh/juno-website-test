@@ -552,3 +552,21 @@ code, pre, tt {
 .post-content {
 	max-width: 850px;
 }
+
+#mce-EMAIL, input.button {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+#mc_embed_signup input.button {
+  background-color: {{ site.colors.secondary }} !important;
+}
+
+#mc_embed_signup input.button:hover,
+#mc_embed_signup input.button:focus,
+#mc_embed_signup input.button:active,
+#mc_embed_signup input.button.active {
+  background-color: {{ site.colors.primary }} !important;
+}
+
+
