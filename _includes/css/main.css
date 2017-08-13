@@ -569,4 +569,17 @@ code, pre, tt {
   background-color: {{ site.colors.primary }} !important;
 }
 
-
+.coming-soon {
+	background-color: rgba(0, 0, 0, 0);
+	color: #EB5C00;
+	border-color: #EB5C00;
+	margin: 8px;
+	font-size: 16px;
+	border: 1px solid #EB5C00;
+	border-radius: 4px;
+	display: inline;
+	padding-top: 0.35rem;
+	padding-right: 0.75rem;
+	padding-bottom: 0.35rem;
+	padding-left: 0.75rem;
+}
