@@ -1,20 +1,7 @@
 <div id="footerwrap">
     <div class="container post-content">
-        <div class="row">
-            <div class="col-lg-6">
-                <h4>About</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
-            </div>
-            <div class="col-lg-6">
-                <h4>Contact</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-            </div>
+        <div class="footer-details">
+            <p align="center">© 2017 kernels.io <i class="fa fa-heart" style="color:#ed4956"></i>  <span style="display:inline-block; width: 20px;"></span> <a href="mailto:{{ site.email }}" target="_blank"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i> {{ site.email }}</a></p>
         </div><! --/row -->
     </div><! --/container -->
 </div><! --/footerwrap -->

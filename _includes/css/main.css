@@ -385,8 +385,8 @@ h1 .btn-beta {
 
 /* Footer */
 #footerwrap {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background: {{ site.colors.secondary }};
 }
 
@@ -398,15 +398,14 @@ h1 .btn-beta {
 	color: {{ site.colors.footer_heading }};
 }
 
-#footerwrap i {
-	font-size: 30px;
+/*#footerwrap i {
 	color: {{ site.colors.footer_content }};
 	padding-right: 25px;
 }
 
 #footerwrap i:hover {
 	color: {{ site.colors.primary }}
-}
+}*/
 
 /*	################################################################
 	PAGE CONFIGURATIONS
@@ -582,4 +581,8 @@ code, pre, tt {
 	padding-right: 0.75rem;
 	padding-bottom: 0.35rem;
 	padding-left: 0.75rem;
+}
+
+.footer-details p {
+	font-size: 12px;
 }
