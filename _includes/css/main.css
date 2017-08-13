@@ -398,15 +398,6 @@ h1 .btn-beta {
 	color: {{ site.colors.footer_heading }};
 }
 
-/*#footerwrap i {
-	color: {{ site.colors.footer_content }};
-	padding-right: 25px;
-}
-
-#footerwrap i:hover {
-	color: {{ site.colors.primary }}
-}*/
-
 /*	################################################################
 	PAGE CONFIGURATIONS
 ################################################################# */
