@@ -3,8 +3,8 @@
 # Site settings
 title: Kernels
 description: "Kernels: Jupyter Notebook client for iPad"
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: #important: start with /
+analytics: UA-104527683-1
+baseurl: 
 url: "//kernels.io"
 
 # Build settings
@@ -37,16 +37,9 @@ social:
     url:
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
-
+email: contact@kernels.io
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "We believe developers and researchers deserve better tools — that's why we built Kernels, a Jupyter Notebook client for iPad. Kernels lets you connect to a remote server running Jupyter Notebook and use it on-the-go."
+about: "We believe developers and researchers deserve better tools — so we built Kernels, a Jupyter Notebook client for iPad. Kernels lets you connect to a remote server running Jupyter Notebook and use it on-the-go."
