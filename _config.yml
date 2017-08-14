@@ -6,6 +6,7 @@ description: "Kernels: Jupyter Notebook client for iPad"
 analytics: UA-104527683-1
 baseurl: 
 url: "//kernels.io"
+image: "assets/img/screenshot_cut.png"
 
 # Build settings
 markdown: kramdown
@@ -22,20 +23,21 @@ colors:  #in hex code if not noted else
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
-### CONTACT SETTINGS ###
+twitter:
+  username: kernels_io
 
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+logo:
+
 social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
-  - title: twitter
-    url:
-  - title: instagram
-    url:
-  - title: tumblr
-    url:
+  name: Kernels
+  links:
+    - https://twitter.com/kernels_io
+    - https://github.com/navoshta
+
+webmaster_verifications:
+  google: XkeGdxyWFoVT7ROPa1di7i4eGi_Pftw9YxQlaspQY3g
+  bing: B3662597D7C2123E3EA94C06277B091D
+  yandex: 40577c77a6506097
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 email: contact@kernels.io
@@ -44,3 +46,9 @@ email: contact@kernels.io
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "We believe developers and researchers deserve better tools — so we built Kernels, a Jupyter Notebook client for iPad. Kernels lets you connect to a remote server running Jupyter Notebook and use it on-the-go."
+
+author: "Kernels"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
