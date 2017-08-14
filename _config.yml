@@ -2,11 +2,11 @@
 
 # Site settings
 title: Kernels
-description: "Kernels: Jupyter Notebook client for iPad"
+description: "Kernels is a Jupyter Notebook client for iPad. Connect to a remote Jupyter Notebook server to edit and run notebooks from your iPad."
 analytics: UA-104527683-1
 baseurl: 
 url: "//kernels.io"
-image: "assets/img/screenshot_cut.png"
+image: assets/img/screenshot_cut.png
 
 # Build settings
 markdown: kramdown
@@ -26,7 +26,7 @@ colors:  #in hex code if not noted else
 twitter:
   username: kernels_io
 
-logo:
+logo: /assets/img/logo.png
 about: "We believe developers and researchers deserve better tools — so we built Kernels, a Jupyter Notebook client for iPad. Kernels lets you connect to a remote server running Jupyter Notebook and use it on-the-go."
 author: "Kernels"
 lang: "en_GB"
@@ -47,3 +47,9 @@ webmaster_verifications:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/logo.png

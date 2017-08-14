@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jupyter Notebook via HTTPS"
-description: "How to configure a self-signed SSL certificate for accessing your Jupyter Notebook remote server"
+description: "Follow these steps to prepare a self-signed SSL certificate for accessing Jupyter Notebook server from your iPad."
 image: ""
 lang: "en_GB"
 date: 2017-08-11 20:54:46

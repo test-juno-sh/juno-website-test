@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Frequently Asked Questions"
-description: "Frequently asked questions about Kernels: Jupyter Notebook client for iPad"
+description: "Frequently asked questions about Kernels, a Jupyter Notebook client for iPad."
 image: ""
 lang: "en_GB"
 date: 2017-08-11 20:54:46
