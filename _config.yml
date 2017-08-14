@@ -27,6 +27,11 @@ twitter:
   username: kernels_io
 
 logo:
+about: "We believe developers and researchers deserve better tools — so we built Kernels, a Jupyter Notebook client for iPad. Kernels lets you connect to a remote server running Jupyter Notebook and use it on-the-go."
+author: "Kernels"
+lang: "en_GB"
+
+email: contact@kernels.io
 
 social:
   name: Kernels
@@ -38,16 +43,6 @@ webmaster_verifications:
   google: XkeGdxyWFoVT7ROPa1di7i4eGi_Pftw9YxQlaspQY3g
   bing: B3662597D7C2123E3EA94C06277B091D
   yandex: 40577c77a6506097
-
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-email: contact@kernels.io
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "We believe developers and researchers deserve better tools — so we built Kernels, a Jupyter Notebook client for iPad. Kernels lets you connect to a remote server running Jupyter Notebook and use it on-the-go."
-
-author: "Kernels"
 
 plugins:
   - jekyll-seo-tag
