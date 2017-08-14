@@ -9,7 +9,7 @@ author: Alex Staravoitau
 ---
 
 Do this.
-
+<!--more-->
 ```bash
 # Do that.
 ```
