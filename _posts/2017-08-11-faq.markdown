@@ -6,6 +6,7 @@ image: ""
 lang: "en_GB"
 date: 2017-08-11 20:54:46
 author: Alex Staravoitau
+no-blog: true
 ---
 <!--more-->
 #### Question
