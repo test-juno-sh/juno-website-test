@@ -608,3 +608,11 @@ h1 .btn-beta {
   background-color: {{ site.colors.primary }};
   border-color: {{ site.colors.primary }};
 }
+
+code.highlighter-rouge {
+	background-color: #F5F5F7;
+    color: #404145;
+    border: 1px solid #DCDCDE;
+    margin: 2px;
+}
+
