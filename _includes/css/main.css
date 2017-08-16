@@ -528,9 +528,10 @@ code, pre, tt {
 	max-width: 850px;
 }
 
-#mce-EMAIL, input.button {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+#mc_embed_signup input.email, #mce-EMAIL, input.button {
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 400 !important;
+	font-size: 14px !important;
 }
 
 #mc_embed_signup input.button {
