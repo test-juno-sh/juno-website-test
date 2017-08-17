@@ -11,5 +11,8 @@ author: Alex Staravoitau
 Do this.
 <!--more-->
 ```bash
-# Do that.
+$ mkdir ca ca/certs ca/crl ca/newcerts ca/private
+$ chmod 700 ca/private
+$ touch ca/index.txt
+$ echo 1000 > ca/serial
 ```
