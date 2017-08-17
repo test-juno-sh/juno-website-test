@@ -512,7 +512,6 @@ a.anchor{
 
 code, pre, tt {
 	font-family: Inconsolata,Consolas,Courier,"Courier New","Liberation Mono",monospace;
-	font-size: 1em;
 	white-space: pre-wrap;
 	border-radius: 2px;
 	line-height: 1.4;
@@ -522,6 +521,7 @@ code, pre, tt {
 	border-radius: 2px;
 	padding: 2px 5px;
 	-webkit-font-smoothing: antialiased;
+	font-size: 13px;
 }
 
 .post-content {
