@@ -639,7 +639,9 @@ thead {
 
 th {
   padding: 0.5em;
-  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;  
+  font-size: 14px;
   text-align: left;
   border-right: 1px solid #DEDEDE;
 }
