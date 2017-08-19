@@ -10,7 +10,7 @@
 ################################################################# */ 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
@@ -669,7 +669,7 @@ tr, td, th {
 
 .notice a {
 	color: #6B6B6B;
-	font-weight: bold;  
+	font-weight: 600;  
 }
 
 .container {
