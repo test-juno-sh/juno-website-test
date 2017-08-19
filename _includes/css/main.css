@@ -655,3 +655,8 @@ td {
 tr, td, th {
   vertical-align: middle;
 }
+
+.container {
+    padding-right: 30px;
+    padding-left: 30px;
+}
