@@ -656,6 +656,22 @@ tr, td, th {
   vertical-align: middle;
 }
 
+.notice {
+  margin: 2em 0 !important;  /* override*/
+  padding: 1em;
+  font-size: 13px !important;
+  text-indent: initial; /* override*/
+  background-color: #F5F5F7;
+  border-radius: 2px;
+  border: 1px solid #DEDEDE;
+  color: #828282;
+}
+
+.notice a {
+	color: #6B6B6B;
+	font-weight: bold;  
+}
+
 .container {
     padding-right: 30px;
     padding-left: 30px;
