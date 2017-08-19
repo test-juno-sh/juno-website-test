@@ -1,9 +1,8 @@
-/*	################################################################
-
+/*	
 	Author: Alex Staravoitau
 	Based on Carlos Alvarez's SOLID Bootstrap 3 Theme
-	
-################################################################# */ 
+ */ 
+
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
@@ -12,13 +11,12 @@
 @import url("hoverex-all.css") screen;
 @import url("darkly.css") screen;
 
-/*	################################################################
-	1. GENERAL STRUCTURES
-################################################################# */
-	* { 
-		margin: 0;
-		padding: 0px;
-	} 
+/* General */
+
+* { 
+	margin: 0;
+	padding: 0px;
+} 
 
 body { 
 	background: #ffffff; 
@@ -72,6 +70,7 @@ a {
 	-ms-transition: background-color .4s linear, color .4s linear;
 	transition: background-color .4s linear, color .4s linear;
 }
+
 a:hover,
 a:focus {
 	text-decoration: none;
@@ -93,9 +92,8 @@ a:focus {
 	text-align: center
 }
 
-/*	################################################################
-	BOOTSTRAP MODIFICATIONS & TWEAKS
-################################################################# */
+/* Bootstrap overrides */
+
 .navbar {
 	min-height: 70px;
 	padding-top: 10px;
@@ -149,6 +147,7 @@ a:focus {
 	margin: 6px;
 	font-size: 16px;
 }
+
 .btn-theme:hover,
 .btn-theme:focus,
 .btn-theme:active,
@@ -166,6 +165,7 @@ a:focus {
 	background-color: #222222;
 	border-color: #ffffff;
 }
+
 .dmbutton {
 	background:rgba(0, 0, 0, 0);
 	border: 1px solid #ffffff;
@@ -213,9 +213,8 @@ a:focus {
 	border-bottom: 2px solid #ffffff;
 	margin-bottom: 25px;
 }
-/*	################################################################
-	SITE WRAPS
-################################################################# */
+
+/* Site wraps */
 
 #headerwrap {
 	background: {{ site.colors.primary }};
@@ -261,6 +260,7 @@ a:focus {
 }
 
 /* Portfolio Wrap */
+
 #portfoliowrap {
 	padding-top: 60px;
 	margin-bottom: 60px;
@@ -278,7 +278,6 @@ a:focus {
 	display:block;
 }
 
-
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
@@ -292,6 +291,7 @@ a:focus {
 	font-size:16px;
 	text-transform:uppercase;
 }
+
 .tpl6 .dmbutton
 {
 	display:inline-block;
@@ -309,6 +309,7 @@ a:focus {
 }
 
 /* Testimonials Wrap */
+
 #twrapback {
     background-color: {{ site.colors.primary }};
     background-color:rgba({{ site.colors.primary_rgb }},.8);
@@ -353,7 +354,8 @@ a:focus {
 	line-height: 30px;
 }
 
-/* clients logo */
+/* Clients Logo */
+
 #cwrap {
 	background: #f7f7f7;
 	margin-top: 0px;
@@ -366,6 +368,7 @@ a:focus {
 }
 
 /* Footer */
+
 #footerwrap {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -380,10 +383,9 @@ a:focus {
 	color: {{ site.colors.footer_heading }};
 }
 
-/*	################################################################
-	PAGE CONFIGURATIONS
-################################################################# */
-/* General Tweaks */
+/* Page Configurations */
+
+/* General */
 
 #blue {
 	background: {{ site.colors.primary }};
@@ -440,6 +442,7 @@ csmall {
 }
 
 /* Contact Page */
+
 #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
 	margin-top: -60px;
@@ -462,32 +465,34 @@ csmall {
 }
 
 /* Blog Page */
+
 .popular-posts { 
 	margin: 0px;
 	padding-left: 0px;
-	}
+}
 	
 .popular-posts li {
 	list-style: none; 
 	margin-bottom: 20px; 
 	min-height: 70px;
 }
+
 .popular-posts li a, 
 .popular-posts li a:hover {
 	color:#2f2f2f; 
 	text-decoration: none;
-	}
+}
 	
 .popular-posts li img {
 	float: left; 
 	margin-right: 20px;
-	}
+}
 	
 .popular-posts li em {
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
 	color: #b3b3b3
-	}
+}
 
 .popular-posts p {
 	line-height: normal;
