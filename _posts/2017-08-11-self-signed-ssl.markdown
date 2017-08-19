@@ -123,7 +123,7 @@ Once CA certificate is trusted on the device, all certificates signed with it wi
 $ jupyter notebook --certfile ~/.ssh/jupyter/certs/ssl.cert.pem --keyfile ~/.ssh/jupyter/private/ssl.key.pem
 ```
 
-Alternatively, you can add a path to key and certificate in [Jupyter configuration file](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html#running-a-public-notebook-server).
+Alternatively, you can specify paths to key and certificate in [Jupyter configuration file](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html#running-a-public-notebook-server).
 
 {:refdef: .notice}
 <i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>This material was based on [OpenSSL Certificate Authority](https://jamielinux.com/docs/openssl-certificate-authority/) and [Creating a Self-Signed SSL Certificate](https://devcenter.heroku.com/articles/ssl-certificate-self) articles.</span>
