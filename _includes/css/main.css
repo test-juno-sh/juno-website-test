@@ -1,11 +1,7 @@
 /*	################################################################
 
-	Author: Carlos Alvarez
-	URL: http://alvarez.is
-
-	Project Name: SOLID - Bootstrap 3 Theme
-	Version: 1.0
-	URL: http://alvarez.is
+	Author: Alex Staravoitau
+	Based on Carlos Alvarez's SOLID Bootstrap 3 Theme
 	
 ################################################################# */ 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
@@ -78,8 +74,8 @@ a {
 }
 a:hover,
 a:focus {
-  text-decoration: none;
-  color:{{ site.colors.link_hover }};
+	text-decoration: none;
+	color:{{ site.colors.link_hover }};
 }
 
 ::-moz-selection  {
@@ -147,20 +143,20 @@ a:focus {
 }
 
 .btn-theme {
-  background-color: rgba(0, 0, 0, 0);
-  color: {{ site.colors.secondary }};
-  border-color: {{ site.colors.secondary }};
-  margin: 6px;
-  font-size: 16px;
+	background-color: rgba(0, 0, 0, 0);
+	color: {{ site.colors.secondary }};
+	border-color: {{ site.colors.secondary }};
+	margin: 6px;
+	font-size: 16px;
 }
 .btn-theme:hover,
 .btn-theme:focus,
 .btn-theme:active,
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
-  color: #fff;
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+	color: #fff;
+	background-color: {{ site.colors.primary }};
+	border-color: {{ site.colors.primary }};
 }
 
 .dmbutton:hover,
@@ -403,24 +399,24 @@ a:focus {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  height: 600px;
-  max-height: 600px;
-  margin: 0 auto;
+	display: block;
+	max-width: 100%;
+	height: 600px;
+	max-height: 600px;
+	margin: 0 auto;
 }
 
 .carousel-indicators li {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: #ccc \9;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #666;
-  border-radius: 10px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 1px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: #ccc \9;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid #666;
+	border-radius: 10px;
 }
 
 .ctitle {
@@ -536,29 +532,29 @@ code, pre, tt {
 }
 
 #mc_embed_signup input.button {
-  background-color: {{ site.colors.secondary }} !important;
+	background-color: {{ site.colors.secondary }} !important;
 }
 
 #mc_embed_signup input.button:hover,
 #mc_embed_signup input.button:focus,
 #mc_embed_signup input.button:active,
 #mc_embed_signup input.button.active {
-  background-color: {{ site.colors.primary }} !important;
+	background-color: {{ site.colors.primary }} !important;
 }
 
 .btn-beta {
-  background-color: rgba(0, 0, 0, 0);
-  color: #EB5C00;
-  border-color: #EB5C00;
+	background-color: rgba(0, 0, 0, 0);
+	color: #EB5C00;
+	border-color: #EB5C00;
 }
 
 h1 .btn-beta {
-  margin: 8px;
-  font-size: 18px;
-  padding-top: 0.35rem;
-  padding-right: 1rem;
-  padding-bottom: 0.45rem;
-  padding-left: 1rem;
+	margin: 8px;
+	font-size: 18px;
+	padding-top: 0.35rem;
+	padding-right: 1rem;
+	padding-bottom: 0.45rem;
+	padding-left: 1rem;
 }
 
 .btn-beta:hover,
@@ -566,9 +562,9 @@ h1 .btn-beta {
 .btn-beta:active,
 .btn-beta.active,
 .open .dropdown-toggle.btn-beta {
-  color: #fff;
-  background-color: #EB5C00;
-  border-color: #EB5C00;
+	color: #fff;
+	background-color: #EB5C00;
+	border-color: #EB5C00;
 }
 
 .coming-soon {
@@ -591,13 +587,13 @@ h1 .btn-beta {
 }
 
 .btn-read-more {
-  background-color: rgba(0, 0, 0, 0);
-  color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
-  padding-top: 0.35rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.45rem;
-  padding-left: 0.75rem;
+	background-color: rgba(0, 0, 0, 0);
+	color: {{ site.colors.primary }};
+	border-color: {{ site.colors.primary }};
+	padding-top: 0.35rem;
+	padding-right: 0.75rem;
+	padding-bottom: 0.45rem;
+	padding-left: 0.75rem;
 }
 
 .btn-read-more:hover,
@@ -605,9 +601,9 @@ h1 .btn-beta {
 .btn-read-more:active,
 .btn-read-more.active,
 .open .dropdown-toggle.btn-read-more {
-  color: #fff;
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+	color: #fff;
+	background-color: {{ site.colors.primary }};
+	border-color: {{ site.colors.primary }};
 }
 
 code.highlighter-rouge {
@@ -621,50 +617,51 @@ code.highlighter-rouge {
 /* Tables */
 
 table {
-  margin-bottom: 1em;
-  width: 100%;
-  font-size: 13px;
-  border-collapse: collapse;
-  border: 1px solid #DEDEDE;
+	margin-bottom: 1em;
+	width: 100%;
+	font-size: 13px;
+	border-collapse: collapse;
+	border: 1px solid #DEDEDE;
 
-  & + table {
-    margin-top: 1em;
-  }
+	& + table {
+		margin-top: 1em;
+	}
 }
 
 thead {
-  background-color: #F5F5F7;
-  border-bottom: 1px solid #DEDEDE;
+	background-color: #F5F5F7;
+	border-bottom: 1px solid #DEDEDE;
 }
 
 th {
-  padding: 0.5em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;  
-  font-size: 14px;
-  text-align: left;
-  border-right: 1px solid #DEDEDE;
+	padding: 0.5em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;  
+	font-size: 14px;
+	text-align: left;
+	border-right: 1px solid #DEDEDE;
 }
 
 td {
-  padding: 0.5em;
-  border-bottom: 1px solid #DEDEDE;
-  border-right: 1px solid #DEDEDE;
+	padding: 0.5em;
+	border-bottom: 1px solid #DEDEDE;
+	border-right: 1px solid #DEDEDE;
 }
 
 tr, td, th {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 
 .notice {
-  margin: 2em 0 !important;  /* override*/
-  padding: 1em;
-  font-size: 13px !important;
-  text-indent: initial; /* override*/
-  background-color: #F5F5F7;
-  border-radius: 2px;
-  border: 1px solid #DEDEDE;
-  color: #828282;
+	margin: 2em 0 !important;  /* override*/
+	padding: 1em;
+	font-size: 13px !important;
+	text-indent: initial; /* override*/
+	background-color: #F5F5F7;
+	border-radius: 2px;
+	border: 1px solid #DEDEDE;
+	color: #828282;
+	vertical-align: middle;
 }
 
 .notice a {
