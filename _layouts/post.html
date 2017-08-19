@@ -4,13 +4,13 @@ layout: default
 
 {% include wrap.html %}
 
-<div class="container mtb post-content">
+<div class="container post-content">
     <div class="row">
         <! -- SINGLE POST -->
         <! -- Blog Post  -->
         <!-- <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p> -->
-        <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-        <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+<!--         <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+ -->        <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
           
         {{ content }}
 
