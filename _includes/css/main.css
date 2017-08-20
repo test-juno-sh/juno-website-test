@@ -16,16 +16,22 @@
 * { 
 	margin: 0;
 	padding: 0px;
-} 
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body { 
 	background: #ffffff; 
 	margin: 0; 
+	margin-bottom: 50px;
 	height: 100%; 
 	color: {{ site.colors.secondary }};
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	}
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
@@ -373,6 +379,9 @@ a:focus {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: {{ site.colors.secondary }};
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 #footerwrap p {
