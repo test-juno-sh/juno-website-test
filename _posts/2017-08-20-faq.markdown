@@ -6,10 +6,8 @@ image: ""
 lang: "en_GB"
 date: 2017-08-11 20:54:46
 author: Alex Staravoitau
-no-blog: true
+<!-- no-blog: true -->
 ---
-<!--more-->
-
 #### What is Kernels?
 Kernels is an iPad client for Jupyter Notebook — it lets you connect to a remote Jupyter notebook server and do everything you do with Jupyter on desktop, anywhere.
 
