@@ -11,13 +11,13 @@ image: assets/img/screenshot_cut.png
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+excerpt_separator: <!--more--> 
 
 colors:  #in hex code if not noted else
-  primary: "#418ffa" #"#F70031"
-  primary_gradient: "#2a4ed6" #"#F70031"
-  primary_rgb: "65,143,250" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#384452" #"#33004D"
+  primary: "#418ffa" 
+  primary_gradient: "#2a4ed6"
+  primary_rgb: "65,143,250" # We use RGB value here since it's needed in some places for the transparency effect.
+  secondary: "#384452"
   link: "#428bca"
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
@@ -27,7 +27,7 @@ twitter:
   username: kernels_io
 
 logo: /assets/img/logo.png
-about: "We believe developers and researchers deserve better tools — so we built Kernels, a Jupyter Notebook client for iPad. Kernels lets you connect to a remote server running Jupyter Notebook and use it on-the-go."
+about: "We believe developers and researchers deserve better tools, so that they can focus on building new exciting things. That is why we have made <b>Kernels</b>, a Jupyter Notebook client for iPad. <b>Kernels</b> lets you connect to a notebook server and do everything you do on desktop, anywhere."
 author: "Alex Staravoitau"
 lang: "en_GB"
 
