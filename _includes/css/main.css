@@ -704,3 +704,9 @@ tr, td, th {
 	max-width: 800px;
 	margin-top: 100px;
 }
+
+.promo-screenshot {
+	position: relative;
+    bottom: -100px;
+    margin-top: -100px;
+}
