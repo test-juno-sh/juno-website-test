@@ -27,7 +27,7 @@ twitter:
   username: kernels_io
 
 logo: /assets/img/logo.png
-about: "We believe developers and researchers deserve better tools, so that they can focus on building new exciting things. That is why we have made <b>Kernels</b>, a Jupyter Notebook client for iPad. <b>Kernels</b> lets you connect to a notebook server and do everything you do on desktop, anywhere."
+about: "We believe developers and researchers deserve better tools, so that they can focus on building new exciting things. That is why we have made Kernels, a Jupyter Notebook client for iPad. Kernels lets you connect to a notebook server and do everything you do on desktop, anywhere."
 author: "Alex Staravoitau"
 lang: "en_GB"
 
