@@ -687,3 +687,8 @@ tr, td, th {
     padding-right: 30px;
     padding-left: 30px;
 }
+
+.img-header {
+    height: 50px;
+    vertical-align: middle;
+}
