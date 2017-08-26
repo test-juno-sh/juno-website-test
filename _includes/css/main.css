@@ -113,6 +113,7 @@ a:focus {
 
 .navbar-header .navbar-brand {
 	color: white;
+	float: right;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -689,6 +690,12 @@ tr, td, th {
 }
 
 .img-header {
-    height: 50px;
+    height: 35px;
     vertical-align: middle;
+    float: left;
+}
+
+.navbar-main-link {
+	display: flex;
+    align-items: center;
 }
