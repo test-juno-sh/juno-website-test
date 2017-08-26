@@ -738,3 +738,8 @@ tr, td, th {
 .footer-details a:focus {
 	color: {{site.colors.primary}};
 }
+
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus {
+	color: {{site.colors.primary}};
+}
