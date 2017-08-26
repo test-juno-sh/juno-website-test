@@ -398,7 +398,7 @@ a:focus {
 /* General */
 
 #blue {
-	background: {{ site.colors.primary }};
+	background: {{ site.colors.primary_gradient_top }};
 	margin-top: 60px;
 	margin-bottom: 15px;
 	padding-top: 25px;
@@ -432,7 +432,7 @@ a:focus {
 }
 
 .ctitle {
-	color: {{ site.colors.primary }};
+	color: #2E2A2A;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -559,8 +559,9 @@ code, pre, tt {
 
 .btn-beta {
 	background-color: rgba(0, 0, 0, 0);
-	color: #EB5C00;
-	border-color: #EB5C00;
+	color: #fff;
+	border-color: #fff;
+	opacity: 0.5;
 }
 
 h1 .btn-beta {
@@ -580,6 +581,7 @@ h1 .btn-beta {
 	color: #fff;
 	background-color: #EB5C00;
 	border-color: #EB5C00;
+	opacity: 1.0;
 }
 
 .coming-soon {
