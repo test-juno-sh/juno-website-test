@@ -225,7 +225,7 @@ a:focus {
 
 #headerwrap {
 	background: {{ site.colors.primary }};
-	background: url(../img/bg.png) center no-repeat, linear-gradient({{ site.colors.primary_gradient }}, {{ site.colors.primary }});
+	background: url(../img/bg.png) center no-repeat, linear-gradient({{ site.colors.primary_gradient_top }}, {{ site.colors.primary_gradient_bottom }});
 	background-size: 100% auto;
 	min-height: 0px;
 	padding-top: 100px;
@@ -235,7 +235,7 @@ a:focus {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
 	#headerwrap {
 		background: {{ site.colors.primary }};
-		background: url(../img/bg@2x.png) center no-repeat, linear-gradient({{ site.colors.primary_gradient }}, {{ site.colors.primary }});
+		background: url(../img/bg@2x.png) center no-repeat, linear-gradient({{ site.colors.primary_gradient_top }}, {{ site.colors.primary_gradient_bottom }});
 		background-size: 100% auto;
 	}
 }
