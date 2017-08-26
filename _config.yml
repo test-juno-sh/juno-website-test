@@ -17,7 +17,7 @@ colors:  #in hex code if not noted else
   primary: "#418ffa" 
   primary_gradient: "#2a4ed6"
   primary_rgb: "65,143,250" # We use RGB value here since it's needed in some places for the transparency effect.
-  secondary: "#384452"
+  secondary: "#2E2A2A"
   link: "#428bca"
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
