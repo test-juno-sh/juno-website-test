@@ -713,6 +713,10 @@ tr, td, th {
     margin-top: -100px;
 }
 
+.img-appicon {
+	height: 150px;
+}
+
 #service {
 	background: url(../img/bg_alt.png) bottom no-repeat;
 	background-size: 100% auto;
