@@ -8,7 +8,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
+      <a href="{{ "/"  | prepend: site.baseurl }}" class="navbar-main-link"> 
+        <img alt="IPython Jupyter Notebook client for iOS iPad" src="{{ "/assets/img/logo.png" | prepend: site.baseurl }}" class="img-header">  
+        <span style="display:inline-block; width: 10px;"></span> 
+        <span class="navbar-brand">{{ site.title }}</span>
+      </a>
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
