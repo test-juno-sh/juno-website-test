@@ -710,3 +710,16 @@ tr, td, th {
     bottom: -100px;
     margin-top: -100px;
 }
+
+#service {
+	background: url(../img/bg_alt.png) bottom no-repeat;
+	background-size: 100% auto;
+	min-height: 0px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	#service {
+		background: url(../img/bg_alt@2x.png) bottom no-repeat;
+		background-size: 100% auto;
+	}
+}
