@@ -729,3 +729,12 @@ tr, td, th {
 		background-size: 100% auto;
 	}
 }
+
+.footer-details a {
+	color: #bfc9d3;
+}
+
+.footer-details a:hover,
+.footer-details a:focus {
+	color: {{site.colors.primary}};
+}
