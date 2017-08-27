@@ -113,7 +113,6 @@ a:focus {
 
 .navbar-header .navbar-brand {
 	color: white;
-	float: right;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -694,7 +693,6 @@ tr, td, th {
 .img-header {
     height: 35px;
     vertical-align: middle;
-    float: left;
 }
 
 .navbar-main-link {
@@ -742,4 +740,10 @@ tr, td, th {
 .navbar-default .navbar-brand:hover, 
 .navbar-default .navbar-brand:focus {
 	color: {{site.colors.primary}};
+}
+
+@media (min-width: 768px) {
+	.navbar > .container .navbar-brand {
+		margin-left: 0px;
+	}
 }
