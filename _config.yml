@@ -14,10 +14,11 @@ permalink: /:categories/:title/
 excerpt_separator: <!--more--> 
 
 colors:  #in hex code if not noted else
-  primary: "#418ffa" 
-  primary_gradient: "#2a4ed6"
-  primary_rgb: "65,143,250" # We use RGB value here since it's needed in some places for the transparency effect.
-  secondary: "#384452"
+  primary: "#E76817" 
+  primary_gradient_top: "#EA802C"
+  primary_gradient_bottom: "#EBAF53"
+  primary_rgb: "230,111,25" # We use RGB value here since it's needed in some places for the transparency effect.
+  secondary: "#2E2A2A"
   link: "#428bca"
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
