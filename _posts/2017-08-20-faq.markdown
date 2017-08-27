@@ -21,7 +21,7 @@ Not really. [Computable](http://computableapp.com){:target="_blank"} was only ab
 No, you need a [notebook server](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} that will do the actual computing. There are a lot of options for running a notebook server: it can be your own laptop in your local network, AWS node or even a dedicated powerful GPU-enabled machine configured as a public server, or accessible via VPN Tunneling.
 
 #### I have a self-signed SSL certificate which doesn't work on iOS.
-Take a look at our [detailed instructions](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you will be able to connect to your server from iPad.
+Take a look at our [detailed instructions](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from iPad.
 
 #### Can't I already do all that in Safari?
 Kernels can do a lot on top of what Safari has to offer. It has responsive and less intrusive UI, benefits from full hardware keyboard support, supports iOS multitasking and has an extensive pipeline of other features coming prior its release.
