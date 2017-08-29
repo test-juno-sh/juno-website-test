@@ -390,7 +390,7 @@ a:focus {
 /* General */
 
 #blue {
-	background: {{ site.colors.primary_gradient_top }};
+	background: {{ site.colors.blog_heading }};
 	margin-top: 60px;
 	margin-bottom: 15px;
 	padding-top: 25px;
