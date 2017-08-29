@@ -15,6 +15,7 @@ excerpt_separator: <!--more-->
 
 colors:  #in hex code if not noted else
   primary: "#E76817" 
+  blog_heading: "#E6A14A"
   primary_gradient_top: "#EA802C"
   primary_gradient_bottom: "#EBAF53"
   primary_rgb: "230,111,25" # We use RGB value here since it's needed in some places for the transparency effect.

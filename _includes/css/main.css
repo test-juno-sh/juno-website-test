@@ -225,19 +225,11 @@ a:focus {
 
 #headerwrap {
 	background: {{ site.colors.primary }};
-	background: url(../img/bg.png) center no-repeat, linear-gradient({{ site.colors.primary_gradient_top }}, {{ site.colors.primary_gradient_bottom }});
+	background: url(../img/bg.svg) center no-repeat;
 	background-size: 100% auto;
 	min-height: 0px;
 	padding-top: 100px;
 	text-align: center;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-	#headerwrap {
-		background: {{ site.colors.primary }};
-		background: url(../img/bg@2x.png) center no-repeat, linear-gradient({{ site.colors.primary_gradient_top }}, {{ site.colors.primary_gradient_bottom }});
-		background-size: 100% auto;
-	}
 }
 
 #headerwrap h3, h5 {
@@ -261,7 +253,7 @@ a:focus {
 }
 
 #service i {
-	color: {{ site.colors.primary }};
+	color: {{ site.colors.secondary }};
 	font-size: 60px;
 	padding: 15px;
 }
@@ -398,7 +390,7 @@ a:focus {
 /* General */
 
 #blue {
-	background: {{ site.colors.primary_gradient_top }};
+	background: {{ site.colors.blog_heading }};
 	margin-top: 60px;
 	margin-bottom: 15px;
 	padding-top: 25px;
