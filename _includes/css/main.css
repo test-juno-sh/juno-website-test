@@ -226,7 +226,7 @@ a:focus {
 #headerwrap {
 	background: {{ site.colors.primary }};
 	background: url(../img/bg.svg) center no-repeat;
-	background-size: 100% auto;
+	background-size: cover;
 	min-height: 0px;
 	padding-top: 100px;
 	text-align: center;
