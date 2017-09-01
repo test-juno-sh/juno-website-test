@@ -4,7 +4,7 @@ title: "Running a notebook server with SSL"
 description: "Follow these steps to prepare a self-signed SSL certificate for accessing Jupyter Notebook server from your iPad."
 image: ""
 lang: "en_GB"
-date: 2017-08-11 20:54:46
+date: 2017-09-01 10:00:00
 author: Alex Staravoitau
 ---
 
