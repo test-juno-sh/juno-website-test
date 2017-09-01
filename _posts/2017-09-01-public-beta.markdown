@@ -4,7 +4,7 @@ title: "Public Beta"
 description: "Sign up for public beta of Kernels, a Jupyter Notebook client for iPad."
 image: ""
 lang: "en_GB"
-date: 2017-08-27 20:54:46
+date: 2017-09-01 12:00:00
 author: Alex Staravoitau
 ---
 
