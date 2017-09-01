@@ -4,7 +4,7 @@ title: "Frequently Asked Questions"
 description: "Frequently asked questions about Kernels, a Jupyter Notebook client for iPad."
 image: ""
 lang: "en_GB"
-date: 2017-08-11 20:54:46
+date: 2017-09-01 11:00:00
 author: Alex Staravoitau
 no-blog: true
 ---
