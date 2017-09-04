@@ -29,6 +29,14 @@ Kernels can do a lot on top of what Safari has to offer. It has responsive and l
 #### My hardware keyboard doesn’t have an Esc key.
 Kernels has additional binding to **Control** key, which duplicates **Esc** key and lets you enter command mode, for instance.
 
+#### We use Jupyter products in our organization.
+If your workflow involves Jupyter notebooks and:
+* You would like **Kernels** to have a deeper integration with your internal services.
+* You want to fit **Kernels** into your organization's infrastructure.
+* You require a higher level of support.
+
+Please, send an inquiry to [contact@kernels.io](mailto:contact@kernels.io), and we will be happy to help.
+
 #### I discovered a defect.
 Please, report all defects and send feature requests to [feedback@kernels.io](mailto:feedback@kernels.io).
 
