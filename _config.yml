@@ -2,7 +2,7 @@
 
 # Site settings
 title: Kernels
-description: "Kernels is a Jupyter Notebook client for iPad. Connect to a remote Jupyter Notebook server to edit and run notebooks from your iPad."
+description: "Kernels: a Jupyter Notebook client for iPad. Connect to a notebook server and do everything you do on desktop, anywhere."
 analytics: UA-104527683-1
 baseurl: 
 url: "//kernels.io"
