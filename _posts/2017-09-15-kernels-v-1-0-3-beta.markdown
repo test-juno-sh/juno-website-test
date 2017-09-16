@@ -8,7 +8,7 @@ date: 2017-09-15 12:00:00
 author: Alex Staravoitau
 ---
 
-Today we are releasing **Kernels** v.1.0.3 update to our beta testers! It adds kernel-based code completion showing suggestions as you type, as well as includes a number of bug fixes and performance improvements. <!--more-->
+Today we are releasing **Kernels v.1.0.3** update to our beta testers! It adds kernel-based code completion showing suggestions as you type, as well as includes a number of bug fixes and performance improvements. <!--more-->
 
 ![Kernels code completion](/assets/img/blog/autocorrect_v_1_0_3.png)
 {: style="text-align: center;"}
