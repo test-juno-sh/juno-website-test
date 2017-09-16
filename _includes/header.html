@@ -8,7 +8,12 @@
                 <div class="spacing"></div>
             </div>
             <div class="col-lg-8 col-lg-offset-2 himg promo-screenshot">
-                <img alt="IPython Jupyter Notebook client for iOS iPad" src="{{ "/assets/img/screenshot_h.png" | prepend: site.baseurl }}" class="img-responsive">
+                <div id="ipad_container">
+                    <video autoplay loop muted>
+                        <source src='{{ "/assets/img/kernels_demo.mp4" | prepend: site.baseurl }}' type="video/mp4">
+                    </video>
+                    <img alt="IPython Jupyter Notebook client for iOS iPad" src="{{ "/assets/img/screenshot_h.png" | prepend: site.baseurl }}" class="img-responsive">
+                </div>
             </div>
         </div><!-- /row -->
     </div> <!-- /container -->
