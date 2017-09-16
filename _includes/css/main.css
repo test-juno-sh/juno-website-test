@@ -742,3 +742,45 @@ tr, td, th {
 		margin-left: 0px;
 	}
 }
+
+/* iPad Demo Video/Screenshot */
+
+#ipad_container {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+#ipad_container video {
+    width: 653px; 
+    height: 486px;
+    top: 37px;
+    left: 69px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#ipad_container img {
+    visibility: visible;
+}
+
+@media (min-width: 768px) {
+    #ipad_container {
+        background: url('{{ "/assets/img/ipad_empty_bg.png" | prepend: site.baseurl }}') no-repeat top left transparent;
+        background-size: 100% auto;
+        width: 800px; 
+        height: 563px;
+    }
+}
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) { 
+    #ipad_container {
+        background: url('{{ "/assets/img/ipad_empty_bg@2x.png" | prepend: site.baseurl }}') no-repeat top left transparent;
+        background-size: 100% auto;
+    }
+    #ipad_container video {
+        visibility: visible;
+    }
+    #ipad_container img {
+        visibility: hidden;
+    }
+}
