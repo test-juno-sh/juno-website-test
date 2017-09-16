@@ -770,8 +770,16 @@ tr, td, th {
         background-size: 100% auto;
         width: 800px; 
         height: 563px;
+        margin-left: -50px;
     }
 }
+
+@media (min-width: 992px) {
+    #ipad_container {
+        margin: auto;
+    }
+}
+
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) { 
     #ipad_container {
         background: url('{{ "/assets/img/ipad_empty_bg@2x.png" | prepend: site.baseurl }}') no-repeat top left transparent;
