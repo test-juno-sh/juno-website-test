@@ -10,7 +10,8 @@
             <div class="col-lg-8 col-lg-offset-2 himg promo-screenshot">
                 <div id="ipad_container">
                     <video autoplay loop muted>
-                        <source src='{{ "/assets/img/kernels_demo.mp4" | prepend: site.baseurl }}' type="video/mp4">
+                        <source src="{{ "/assets/img/kernels_demo.webm" | prepend: site.baseurl }}" type="video/webm; codecs=vp9,vorbis">
+                        <source src="{{ "/assets/img/kernels_demo.mp4" | prepend: site.baseurl }}" type="video/mp4">
                     </video>
                     <img alt="IPython Jupyter Notebook client for iOS iPad" src="{{ "/assets/img/screenshot_h.png" | prepend: site.baseurl }}" class="img-responsive">
                 </div>
