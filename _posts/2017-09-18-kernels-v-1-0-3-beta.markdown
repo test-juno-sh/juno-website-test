@@ -4,7 +4,7 @@ title: "Kernels v.1.0.3 beta"
 description: "A new beta release of Kernels, a Jupyter Notebook client for iPad."
 image: ""
 lang: "en_GB"
-date: 2017-09-15 12:00:00
+date: 2017-09-18 12:00:00
 author: Alex Staravoitau
 ---
 
