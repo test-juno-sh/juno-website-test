@@ -33,7 +33,7 @@ Kernels has additional binding to **Control** key, which duplicates **Esc** key 
 If your workflow involves Jupyter notebooks and:
 * You would like **Kernels** to have a deeper integration with your internal services.
 * You want to fit **Kernels** into your organization's infrastructure.
-* You require a higher level of support.
+* You are a cloud computing services provider and would like **Kernels** to support it as a backend.
 
 Please, send an inquiry to [contact@kernels.io](mailto:contact@kernels.io), and we will be happy to help.
 
