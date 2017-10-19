@@ -2,7 +2,7 @@
 
 # Site settings
 title: Juno
-description: "Juno: a Jupyter Notebook client for iPad. Connect to a notebook server and do everything you do on desktop, anywhere."
+description: "Juno: a Jupyter/IPython client for iPad. Connect to a notebook server with Juno and do everything you do on desktop, anywhere."
 analytics: UA-104527683-1
 baseurl: 
 url: "//kernels.io"
@@ -29,7 +29,7 @@ twitter:
   username: kernels_io
 
 logo: /assets/img/logo.png
-about: "We believe developers and researchers deserve better tools, so that they can focus on building new exciting things. That is why we have made Juno, a Jupyter Notebook client for iPad. Juno lets you connect to a notebook server and do everything you do on desktop, anywhere."
+about: "Connect to a Jupyter/IPython server with Juno and do everything you do on desktop, anywhere. Sign up for beta now!"
 author: "Alex Staravoitau"
 lang: "en_GB"
 
