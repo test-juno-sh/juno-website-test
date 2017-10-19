@@ -11,9 +11,6 @@ no-blog: true
 #### What is Juno?
 Juno is an iPad client for Jupyter Notebook — it lets you connect to a remote Jupyter notebook server and do everything you do with Jupyter on desktop, anywhere.
 
-#### What is Kernels?
-Kernels is a company that created Juno, an iPad client for Jupyter Notebook.
-
 #### When is Juno out?
 [Public beta](/juno#mce-EMAIL){:target="_blank"} is now available with AppStore release coming this fall.
 
