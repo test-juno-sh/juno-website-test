@@ -2,4 +2,4 @@
 https://kernels.io)
 ============
 
-Website for **Kernels** project, based on [Solid](https://github.com/st4ple/solid-jekyll) Jekyll theme.
+Website for **Juno** project, based on [Solid](https://github.com/st4ple/solid-jekyll) Jekyll theme.
