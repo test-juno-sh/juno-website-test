@@ -14,7 +14,7 @@ Today we are releasing **Juno v.1.0.5** update to our beta testers! That's right
 {: style="text-align: center;"}
 
 #### What's new
-* NAME. That's right, our app got a cool new name: **Juno**, as in **Ju**pyter **No**tebook, and as in, well, goddess Juno, wife of Jupiter (the god), and as in probe Juno that was sent to explore Jupiter (the planet) earlier this year.
+* NAME. That's right, our app got a cool new name: **Juno**, as in **Ju**pyter **No**tebook, and as in, well, goddess Juno, wife of Jupiter (the god), and as in probe Juno that was sent to explore Jupiter (the planet) and got there earlier this year.
 * Multiple server configurations. You can now configure multiple servers and switch between them in settings.
 * Integration with a [temporary Jupyter Notebook service](https://try.jupyter.org) (hosted by Rackspace). Essentially, you can try our app without any preliminary configuration now!
 * Various performance improvements, specifically for notebook scrolling.
