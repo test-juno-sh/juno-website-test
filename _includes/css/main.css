@@ -749,7 +749,7 @@ tr, td, th {
     width: 100%;
     position: relative;
     justify-content: center;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #ipad_container video {
