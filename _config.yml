@@ -5,7 +5,7 @@ title: Juno
 description: "Juno: a Jupyter/IPython client for iPad. Connect to a notebook server with Juno and do everything you do on desktop, anywhere."
 analytics: UA-104527683-1
 baseurl: 
-url: "//kernels.io"
+url: "//juno.sh"
 image: assets/img/screenshot_cut.png
 
 # Build settings
@@ -26,19 +26,19 @@ colors:  #in hex code if not noted else
   footer_content: "#bfc9d3"
 
 twitter:
-  username: kernels_io
+  username: junoclient
 
 logo: /assets/img/logo.png
 about: "Connect to a Jupyter/IPython server with Juno and do everything you do on desktop, anywhere. Sign up for beta now!"
 author: "Alex Staravoitau"
 lang: "en_GB"
 
-email: contact@kernels.io
+email: contact@juno.sh
 
 social:
-  name: Kernels
+  name: Juno
   links:
-    - https://twitter.com/kernels_io
+    - https://twitter.com/junoclient
 
 webmaster_verifications:
   google: XkeGdxyWFoVT7ROPa1di7i4eGi_Pftw9YxQlaspQY3g
