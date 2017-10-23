@@ -69,10 +69,10 @@ emailAddress                    = Email Address
 countryName_default             = GB
 stateOrProvinceName_default     = England
 localityName_default            = London
-0.organizationName_default      = Kernels.io
-organizationalUnitName_default  = Kernels
+0.organizationName_default      = Juno
+organizationalUnitName_default  = Juno
 commonName_default				= Jupyter Notebook
-emailAddress_default            = help@kernels.io
+emailAddress_default            = help@juno.sh
 
 [ v3_ca ]
 # Extensions for a typical CA (`man x509v3_config`).
