@@ -12,7 +12,7 @@ no-blog: true
 Juno is an iPad client for Jupyter Notebook — it lets you connect to a remote Jupyter notebook server and do everything you do with Jupyter on desktop, anywhere.
 
 #### When is Juno out?
-[Public beta](/juno#mce-EMAIL){:target="_blank"} is now available with AppStore release coming this fall.
+[Public beta](/#mce-EMAIL){:target="_blank"} is now available with AppStore release coming this fall.
 
 #### Is Juno what Computable used to be?
 Not really. [Computable](http://computableapp.com){:target="_blank"} was only capable of creating and running notebooks locally, whereas Juno allows you to connect to a remote Jupyter notebook server in order to edit and run any notebooks you have there using server's computational resources.
@@ -35,10 +35,10 @@ If your workflow involves Jupyter notebooks and:
 * You want to fit **Juno** into your organization's infrastructure.
 * You are a cloud computing services provider and would like **Juno** to support it as a backend.
 
-Please, send an inquiry to [contact@kernels.io](mailto:contact@kernels.io), and we will be happy to help.
+Please, send an inquiry to [contact@juno.sh](mailto:contact@juno.sh), and we will be happy to help.
 
 #### I discovered a defect.
-Please, report all defects and send feature requests to [feedback@kernels.io](mailto:feedback@kernels.io).
+Please, report all defects and send feature requests to [feedback@juno.sh](mailto:feedback@juno.sh).
 
 #### I can't get it to work!
-Please, check out [Jupyter documentation](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} on running a notebook server, or send an e-mail to [help@kernels.io](mailto:help@kernels.io).
+Please, check out [Jupyter documentation](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} on running a notebook server, or send an e-mail to [help@juno.sh](mailto:help@juno.sh).
