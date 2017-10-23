@@ -791,6 +791,9 @@ tr, td, th {
         background: url('{{ "/assets/img/ipad_empty_bg@2x.png" | prepend: site.baseurl }}') no-repeat top left transparent;
         background-size: 100% auto;
     }
+}
+
+@media (min-width: 768px) { 
     #ipad_container video {
         visibility: visible;
     }
