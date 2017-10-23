@@ -12,9 +12,6 @@
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-orange">
             <path d="M681.593603,-138 C741.037171,-1.32658348 774,149.535509 774,308.100667 C774,643.212917 626.772291,943.919608 393.504362,1149 L116,1146.82674 L270.313201,-109.986588 L681.593606,-137.999992 Z" id="Combined-Shape" fill="url(#linearGradient-1)" transform="translate(445.000000, 505.500000) rotate(-97.000000) translate(-445.000000, -505.500000) "></path>
-            <text id="Home-Blog-FAQ" font-family="RalewayVFBeta-Regular_SemiBold, Raleway VF Beta" font-size="18" font-weight="500" fill="#F4F4F4">
-                <tspan x="764" y="99">Home  Blog   FAQ</tspan>
-            </text>
             <path d="M1037.6707,-412 C1111.61671,-256.544641 1153,-82.598242 1153,101.016304 C1153,462.648623 992.47404,786.778156 738.809154,1006 L237,1006 L237,-411.999932 L1037.67073,-411.999932 Z" id="Combined-Shape" fill="url(#linearGradient-1)" transform="translate(695.000000, 297.000000) rotate(-90.000000) translate(-695.000000, -297.000000) "></path>
         </g>
     </g>
