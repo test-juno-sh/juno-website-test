@@ -12,7 +12,7 @@ no-blog: true
 Juno is an iPad client for Jupyter Notebook — it lets you connect to a remote Jupyter notebook server and do everything you do with Jupyter on desktop, anywhere.
 
 #### When is Juno out?
-[Public beta](/#mce-EMAIL){:target="_blank"} is now available with AppStore release coming this fall.
+[Public beta](/#mce-EMAIL){:target="_blank"} is now available with AppStore release coming later this year.
 
 #### Is Juno what Computable used to be?
 Not really. [Computable](http://computableapp.com){:target="_blank"} was only capable of creating and running notebooks locally, whereas Juno allows you to connect to a remote Jupyter notebook server in order to edit and run any notebooks you have there using server's computational resources.
