@@ -13,6 +13,12 @@ markdown: kramdown
 permalink: /:categories/:title/
 excerpt_separator: <!--more--> 
 
+# Syntax highlighting
+highlighter: rouge
+kramdown:
+    input: GFM 
+    syntax_highlighter: rouge
+
 colors:  #in hex code if not noted else
   primary: "#E76817" 
   blog_heading: "#E6A14A"
