@@ -16,7 +16,6 @@ Today we are releasing **Juno v.1.0.6** update to our beta testers! This release
 #### What's new
 * Bundled notebooks. We have included a couple of introductory notebooks in the app, so that you can try Jupyter without any preliminary configuration!
 * Undo/Redo. Can't believe it took us so long to fix that one. Undo finally works in individual cells!
-* Crashes. Well, those are gone now.
 * Typography. We have worked on fonts across notebooks, so they should be easier to work with on your mobile devices.
 * Various visual design changes and usability improvements. As negligible as they may seem, those will let us bring more substantial features in the next couple of releases!
 * Fixes for a number of smaller bugs and issues reported by our beta testers.
