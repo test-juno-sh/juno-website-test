@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Juno v.1.0.8 beta"
+title: "Juno v.1.0.9 beta"
 description: "A new beta release of Juno, Jupyter/IPython client for iPad."
 image: /assets/img/blog/demo_notebooks_v_1_0_6.png
 lang: "en_GB"
@@ -8,7 +8,7 @@ date: 2017-11-20 12:00:00
 author: Alex Staravoitau
 ---
 
-Today we are releasing **Juno v.1.0.8** update to our beta testers! This release includes improved typography, visual design updates, as well as a number of bug fixes and performance improvements. <!--more-->
+Today we are releasing **Juno v.1.0.9** update to our beta testers! This release includes improved typography, visual design updates, as well as a number of bug fixes and performance improvements. <!--more-->
 
 ![Juno demo notebooks](/assets/img/blog/demo_notebooks_v_1_0_6.png)
 {: style="text-align: center;"}
