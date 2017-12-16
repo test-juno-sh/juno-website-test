@@ -42,3 +42,7 @@ Please, report all defects and send feature requests to [feedback@juno.sh](mailt
 
 #### I can't get it to work!
 Please, check out [Jupyter documentation](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} on running a notebook server, or send an e-mail to [help@juno.sh](mailto:help@juno.sh).
+
+{:refdef: .notice}
+<i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>Make sure to run a recent version of Jupyter Notebook, preferably <b>4.1.0</b> or higher.</span>
+{: refdef}
