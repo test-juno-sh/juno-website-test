@@ -9,7 +9,7 @@ author: Alex Staravoitau
 no-blog: true
 ---
 ## PRIVACY POLICY MODEL FOR MOBILE APPLICATIONS
-This privacy policy governs your use of the software application Juno: Jupyter Client (“Application”) for mobile devices that was created by&nbsp;Rational Matter.&nbsp;The Application is&nbsp;a mobile client that provides access to arbitrary Jupyter server from an iOS device.
+This privacy policy governs your use of the software application Juno: Jupyter Notebook Client (“Application”) for mobile devices that was created by&nbsp;Rational Matter.&nbsp;The Application is&nbsp;a mobile client that provides access to arbitrary Jupyter server from an iOS device.
 
 ### What information does the Application obtain and how is it used? 
 #### User Provided Information
