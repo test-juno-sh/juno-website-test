@@ -793,11 +793,11 @@ tr, td, th {
     }
 }
 
-@media (min-width: 768px) { 
+/*@media (min-width: 768px) { 
     #ipad_container video {
         visibility: visible;
     }
     #ipad_container img {
         visibility: hidden;
     }
-}
+}*/
