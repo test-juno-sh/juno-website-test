@@ -12,19 +12,19 @@ no-blog: true
 Juno is an iPad client for Jupyter Notebook — it lets you connect to a remote Jupyter notebook server and do everything you do with Jupyter on desktop, anywhere.
 
 #### When is Juno out?
-[Public beta](/#mce-EMAIL){:target="_blank"} is now available with AppStore release coming later this year.
+Juno is coming to AppStore in late January 2018.
 
 #### Is Juno what Computable used to be?
-Not really. [Computable](http://computableapp.com){:target="_blank"} was only capable of creating and running notebooks locally, whereas Juno allows you to connect to a remote Jupyter notebook server in order to edit and run any notebooks you have there using server's computational resources.
+Not really. [Computable](http://computableapp.com){:target="_blank"} was only capable of creating and running notebooks locally, whereas Juno allows you to connect to an arbitrary remote Jupyter notebook server in order to edit and run any notebooks you have there using server's computational resources.
 
 #### Can it run notebooks locally?
-No, you need a [notebook server](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} that will do the actual computing. There are many options of running a notebook server: it can be your own laptop in your local network, AWS node, or even a dedicated powerful GPU-enabled machine configured as a public server or accessible via tunneling.
+No, you need a [notebook server](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} that will do the actual computing. There are many options of running a notebook server: it can be your own laptop in your local network, AWS node, or even a dedicated powerful GPU-enabled machine configured as a public server or accessible via tunneling. Alternatively, you could use one of cloud computing services that are based on Jupyter, such as [CoCalc](http://cocalc.com) or [Azure Notebooks](https://notebooks.azure.com).
 
 #### I have a self-signed SSL certificate which doesn't work on iOS.
 Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from iPad.
 
 #### Can't I already do all that in Safari?
-Juno can do a lot on top of what Safari has to offer. It has responsive and less intrusive UI, benefits from full hardware keyboard support, supports iOS multitasking and has an extensive pipeline of other features coming prior to its release.
+Juno can do a lot on top of what Safari has to offer! For instance, it has responsive and less intrusive interface and benefits from full hardware keyboard support.
 
 #### My hardware keyboard doesn’t have an Esc key.
 Juno has additional binding to **Control** key, which duplicates **Esc** key and lets you enter command mode, for instance.
