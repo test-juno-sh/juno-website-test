@@ -119,6 +119,7 @@ a:focus {
 	font-family: 'Lato', sans-serif;
 	font-weight: 900;
 	padding-left: 10px;
+	font-size: 28px;
 }
 
 .navbar-header .navbar-brand {
@@ -557,6 +558,10 @@ code, pre, tt {
 #mc_embed_signup input.button:active,
 #mc_embed_signup input.button.active {
 	background-color: {{ site.colors.primary }} !important;
+}
+
+#mc_embed_signup input.email {
+	width: 250px !important;
 }
 
 .btn-beta {
