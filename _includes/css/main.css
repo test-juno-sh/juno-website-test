@@ -55,6 +55,15 @@ img {
 	max-width: 100%;
 }
 
+.download-appstore-badge {
+	height: 60px;
+}
+
+.download-app-icon {
+	height: 60px;
+	width: 60px;
+}
+
 ul {
     margin-left: 0;
     padding-left: 20px;
@@ -250,7 +259,7 @@ a:focus {
 #service {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding-bottom: 100px;
+	padding-bottom: 70px;
 }
 
 #service i {
