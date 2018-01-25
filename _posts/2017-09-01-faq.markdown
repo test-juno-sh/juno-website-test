@@ -15,7 +15,7 @@ no-blog: true
 No, you need a [notebook server](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} that will do the actual computing. There are many options of running a notebook server: it can be your own laptop in your local network, AWS node, or even a dedicated powerful GPU-enabled machine configured as a public server or accessible via tunneling. Alternatively, you could use one of cloud computing services that are based on Jupyter, such as [CoCalc](http://cocalc.com){:target="_blank"} or [Azure Notebooks](https://notebooks.azure.com){:target="_blank"}.
 
 #### My notebooks won't connect!
-Usually this means that your server uses a self-signed SSL certificate for HTTPS which doesn't work on iOS, neither in Safari nor in Juno. Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from iPad.
+Usually this means that your server uses a self-signed SSL certificate for HTTPS which doesn't work on iOS due to security restrictions — neither in Safari nor in Juno. Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from iPad.
 
 #### Can't I already do all that in Safari?
 Juno can do a lot on top of what Safari has to offer! For instance, it has responsive and less intrusive interface and benefits from full hardware keyboard support.
