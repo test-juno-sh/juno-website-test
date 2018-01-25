@@ -13,6 +13,19 @@ permalink: /
             We believe developers and researchers deserve better tools, so that they can focus on building new exciting things. That is why we have made <b>Juno</b>, a Jupyter/IPython notebook client for iPad. <b>Juno</b> lets you connect to a notebook server and do everything you do on desktop, anywhere.
         </p>
     </div>
+    <div class="spacing"></div>
+    <div class="row-fluid">
+        <div class="cover-container">
+            <span style="display:inline-block; width: 10px;"></span> 
+            {% for image in site.screenshots %}
+                <a href="{{ image.src }}" target="blank">
+                    <div class="cover-item" style="background-image: url({{ image.thumb | prepend: site.baseurl }})"></div>
+                </a>
+            {% endfor %}
+            <span style="display:inline-block; width: 10px;"></span> 
+        </div>
+    </div>
+
     <div class="container">
         <div class="spacing"></div>
         <div class="row centered">
