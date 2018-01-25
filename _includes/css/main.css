@@ -762,8 +762,6 @@ tr, td, th {
 	}
 }
 
-/* iPad Demo Video/Screenshot */
-
 #ipad_container {
     width: 100%;
     position: relative;
@@ -771,47 +769,28 @@ tr, td, th {
     overflow: hidden;
 }
 
-#ipad_container video {
-    width: 653px; 
-    height: 486px;
-    top: 37px;
-    left: 69px;
-    position: absolute;
-    visibility: hidden;
+.cover-container {
+    height: 260px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
-#ipad_container img {
-    visibility: visible;
+.cover-container::-webkit-scrollbar { 
+    display: none; 
 }
 
-@media (min-width: 768px) {
-    #ipad_container {
-        background: url('{{ "/assets/img/ipad_empty_bg.png" | prepend: site.baseurl }}') no-repeat top left transparent;
-        background-size: 100% auto;
-        width: 800px; 
-        height: 563px;
-        margin-left: -50px;
-    }
+.cover-item {
+    position: relative;
+    display: inline-block;
+    margin: 8px 8px;
+    box-shadow: 0px 0px 8px #bbb;
+    border-radius: 4px;
+    width: 180px;
+    height: 240px;
+    vertical-align: bottom;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-@media (min-width: 992px) {
-    #ipad_container {
-        margin: auto;
-    }
-}
-
-@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) { 
-    #ipad_container {
-        background: url('{{ "/assets/img/ipad_empty_bg@2x.png" | prepend: site.baseurl }}') no-repeat top left transparent;
-        background-size: 100% auto;
-    }
-}
-
-/*@media (min-width: 768px) { 
-    #ipad_container video {
-        visibility: visible;
-    }
-    #ipad_container img {
-        visibility: hidden;
-    }
-}*/
