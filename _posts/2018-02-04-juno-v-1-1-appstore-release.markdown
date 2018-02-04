@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AppStore Release 🍾"
-description: "Juno 1.1.1 is live on the AppStore!"
+description: "Juno 1.1 is live on the AppStore!"
 image: /assets/img/blog/appstore_release_v_1_1_1.png
 lang: "en_GB"
 date: 2018-02-04 12:00:00
