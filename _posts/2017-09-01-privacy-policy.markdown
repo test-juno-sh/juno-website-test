@@ -8,7 +8,6 @@ date: 2018-05-24 11:00:00
 author: Alex Staravoitau
 no-blog: true
 ---
-### Privacy Policy 
 
 We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the Rational Matter. The use of the Internet pages of the Rational Matter is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject. 
 
