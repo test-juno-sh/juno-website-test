@@ -39,6 +39,19 @@ Juno can do a lot on top of what Safari has to offer! For instance, it has respo
 #### My hardware keyboard doesn’t have an Esc key
 Juno has additional binding to **Control** key, which duplicates **Esc** key and lets you enter command mode, for instance.
 
+#### I can't use assisted input using latin characters in Juno
+Unfortunately, there is a known issue with assisted input using latin characters (something similar to IME in Windows, where you use latin characters to input in Japanese, Korean or Chinese). Apparently, this issue is caused by one of the components Jupyter is using, and this issue has been reported, although not resolved yet — see discussion [here](https://github.com/codemirror/CodeMirror/issues/3137){:target="_blank"}. We are looking into a workaround for Juno, and hope to fix or at least improve international input in our future releases. Sorry for inconvenience meanwhile. 
+
+#### I can't view or edit text files in Juno
+Editing of text files is switched off for now, but we are looking into ways of either allowing it the way Jupyter normally does, or at least letting you open copies of those files in other apps. Sorry for inconvenience meanwhile.
+
+#### Does Juno support JupyterLab?
+Juno doesn't support any JupyterLab specific features yet; however, all JupyterLab servers also include “classic" Jupyter Notebook as a fallback option, which Juno works perfectly with. You can access it by appending `/tree` to your JupyterLab server URL. 
+
+{:refdef: .notice}
+<i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>As of version 1.2, Juno should be able to detect JupyterLab servers and automatically redirect you to `/tree`.</span>
+{: refdef}
+
 #### We use Jupyter products in our organization
 If your workflow involves Jupyter notebooks and:
 * You would like **Juno** to have a deeper integration with your internal services.
