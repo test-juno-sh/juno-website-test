@@ -27,6 +27,12 @@ You can access your server in Juno if you have SSH tunnel established on your iP
 #### My notebooks won't connect!
 Usually this means that your server uses a self-signed SSL certificate for HTTPS which doesn't work on iOS due to security restrictions — neither in Safari nor in Juno. Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from iPad.
 
+#### Can I use some preconfigured server instead?
+Yes, absolutely. If you don't want to go through the hassle of configuring your own server, you could use one of cloud computing services that are based on Jupyter, such as [CoCalc](http://cocalc.com){:target="_blank"} or [Azure Notebooks](https://notebooks.azure.com){:target="_blank"}.
+
+#### Can I use Juno with Google Colaboratory?
+Sadly, not yet. We would love to support Google Colaboratory as a cloud computing service, however, we are currently pending some additional info from the Google team. Meanwhile, I'd say it wouldn't hurt to ping them through customer support, so that they know there is interest in Juno integration. 😉
+
 #### Can't I already do all that in Safari?
 Juno can do a lot on top of what Safari has to offer! For instance, it has responsive and less intrusive interface and benefits from full hardware keyboard support.
 
