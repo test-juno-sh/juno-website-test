@@ -14,6 +14,16 @@ no-blog: true
 #### Can it run notebooks locally?
 No, you need a [notebook server](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} that will do the actual computing. There are many options of running a notebook server: it can be your own laptop in your local network, AWS node, or even a dedicated powerful GPU-enabled machine configured as a public server or accessible via tunneling. Alternatively, you could use one of cloud computing services that are based on Jupyter, such as [CoCalc](http://cocalc.com){:target="_blank"} or [Azure Notebooks](https://notebooks.azure.com){:target="_blank"}.
 
+#### Can I use my home PC as a Jupyter server?
+Yes, absolutely! Your PC will need to be switched on and accessible to your iPad at all times though. There are a couple of ways of connecting to it: if your iPad is on the same local network, you can just use your PC's IP address. If you would like to connect over the internet, you would need to configure your PC as a public server. Please, check [Jupyter documentation](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html){:target="_blank"} for further details.
+
+#### Can I use SSH tunnel (aka port forwarding) in Juno?
+You can access your server in Juno if you have SSH tunnel established on your iPad; however, you may need a 3rd party app to configure the port forwarding part. There are apps on the AppStore that will let you establish a tunnel with port forwarding (for example, [this one](https://itunes.apple.com/app/ssh-tunnel/id1260223542?mt=8){:target="_blank"}), and Juno will then work by pointing it at `localhost` and mapped port.
+
+{:refdef: .notice}
+<i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>We plan to include SSH tunneling capability in Juno in one of our future releases.</span>
+{: refdef}
+
 #### My notebooks won't connect!
 Usually this means that your server uses a self-signed SSL certificate for HTTPS which doesn't work on iOS due to security restrictions — neither in Safari nor in Juno. Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from iPad.
 
