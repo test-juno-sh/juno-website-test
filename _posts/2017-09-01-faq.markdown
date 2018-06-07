@@ -36,10 +36,10 @@ Sadly, not yet. We would love to support Google Colaboratory as a cloud computin
 #### Can't I already do all that in Safari?
 Juno can do a lot on top of what Safari has to offer! For instance, it has responsive and less intrusive interface and benefits from full hardware keyboard support.
 
-#### My hardware keyboard doesn’t have an Esc key.
+#### My hardware keyboard doesn’t have an Esc key
 Juno has additional binding to **Control** key, which duplicates **Esc** key and lets you enter command mode, for instance.
 
-#### We use Jupyter products in our organization.
+#### We use Jupyter products in our organization
 If your workflow involves Jupyter notebooks and:
 * You would like **Juno** to have a deeper integration with your internal services.
 * You want to fit **Juno** into your organization's infrastructure.
@@ -47,7 +47,7 @@ If your workflow involves Jupyter notebooks and:
 
 Please, send an inquiry to [contact@juno.sh](mailto:contact@juno.sh), and we will be happy to help.
 
-#### I discovered a defect.
+#### I discovered a defect
 Please, report all defects and send feature requests to [feedback@juno.sh](mailto:feedback@juno.sh).
 
 #### I can't get it to work!
