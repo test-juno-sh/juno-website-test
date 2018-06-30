@@ -19,9 +19,14 @@ image_sliders:
     <div class="row-fluid">
         <div class="cover-container">
             <span style="display:inline-block; width: 10px;"></span> 
-            {% for image in site.screenshots %}
+            {% for image in site.screenshots_tablet %}
                 <a href="{{ image.src }}" target="blank">
-                    <div class="cover-item" style="background-image: url({{ image.thumb | prepend: site.baseurl }})"></div>
+                    <div class="cover-item" style="background-image: url({{ image.thumb | prepend: site.baseurl }}); width: 180px; height: 240px;"></div>
+                </a>
+            {% endfor %}
+            {% for image in site.screenshots_phone %}
+                <a href="{{ image.src }}" target="blank">
+                    <div class="cover-item" style="background-image: url({{ image.thumb | prepend: site.baseurl }}); width: 134px; height: 240px;"></div>
                 </a>
             {% endfor %}
             <span style="display:inline-block; width: 10px;"></span> 
