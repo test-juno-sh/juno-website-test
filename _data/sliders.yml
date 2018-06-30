@@ -12,6 +12,8 @@
       data-src-2x: /assets/img/screenshots/screenshot_h_04@2x.png
     - data-src: /assets/img/screenshots/screenshot_h_05.png
       data-src-2x: /assets/img/screenshots/screenshot_h_05@2x.png
+    - data-src: /assets/img/screenshots/screenshot_h_06.png
+      data-src-2x: /assets/img/screenshots/screenshot_h_06@2x.png
   settings:
     height: "'auto'"
     effect: "'fade'"
