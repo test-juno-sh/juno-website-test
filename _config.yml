@@ -61,27 +61,45 @@ defaults:
     values:
       image: /assets/img/logo.png
 
-screenshots:
-  - src: /assets/img/screenshots/screenshot_v_01.png
-    thumb: /assets/img/screenshots/screenshot_v_01_thumb@2x.png
-  - src: /assets/img/screenshots/screenshot_v_02.png
-    thumb: /assets/img/screenshots/screenshot_v_02_thumb@2x.png
-  - src: /assets/img/screenshots/screenshot_v_03.png
-    thumb: /assets/img/screenshots/screenshot_v_03_thumb@2x.png
-  - src: /assets/img/screenshots/screenshot_v_04.png
-    thumb: /assets/img/screenshots/screenshot_v_04_thumb@2x.png
-  - src: /assets/img/screenshots/screenshot_v_05.png
-    thumb: /assets/img/screenshots/screenshot_v_05_thumb@2x.png
-  - src: /assets/img/screenshots/screenshot_v_06.png
-    thumb: /assets/img/screenshots/screenshot_v_06_thumb@2x.png
-  - src: /assets/img/screenshots/screenshot_v_07.png
-    thumb: /assets/img/screenshots/screenshot_v_07_thumb@2x.png
-  - src: /assets/img/screenshots/screenshot_v_08.png
-    thumb: /assets/img/screenshots/screenshot_v_08_thumb@2x.png
-  - src: /assets/img/screenshots/screenshot_v_09.png
-    thumb: /assets/img/screenshots/screenshot_v_09_thumb@2x.png
-  - src: /assets/img/screenshots/screenshot_v_10.png
-    thumb: /assets/img/screenshots/screenshot_v_10_thumb@2x.png
+screenshots_tablet:
+  - src: /assets/img/screenshots/screenshot_v_tablet_01.png
+    thumb: /assets/img/screenshots/screenshot_v_tablet_01_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_tablet_02.png
+    thumb: /assets/img/screenshots/screenshot_v_tablet_02_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_tablet_03.png
+    thumb: /assets/img/screenshots/screenshot_v_tablet_03_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_tablet_04.png
+    thumb: /assets/img/screenshots/screenshot_v_tablet_04_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_tablet_05.png
+    thumb: /assets/img/screenshots/screenshot_v_tablet_05_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_tablet_06.png
+    thumb: /assets/img/screenshots/screenshot_v_tablet_06_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_tablet_07.png
+    thumb: /assets/img/screenshots/screenshot_v_tablet_07_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_tablet_08.png
+    thumb: /assets/img/screenshots/screenshot_v_tablet_08_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_tablet_09.png
+    thumb: /assets/img/screenshots/screenshot_v_tablet_09_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_tablet_10.png
+    thumb: /assets/img/screenshots/screenshot_v_tablet_10_thumb@2x.png
 
-
+screenshots_phone:
+  - src: /assets/img/screenshots/screenshot_v_phone_01.png
+    thumb: /assets/img/screenshots/screenshot_v_phone_01_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_phone_02.png
+    thumb: /assets/img/screenshots/screenshot_v_phone_02_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_phone_03.png
+    thumb: /assets/img/screenshots/screenshot_v_phone_03_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_phone_04.png
+    thumb: /assets/img/screenshots/screenshot_v_phone_04_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_phone_05.png
+    thumb: /assets/img/screenshots/screenshot_v_phone_05_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_phone_06.png
+    thumb: /assets/img/screenshots/screenshot_v_phone_06_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_phone_07.png
+    thumb: /assets/img/screenshots/screenshot_v_phone_07_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_phone_08.png
+    thumb: /assets/img/screenshots/screenshot_v_phone_08_thumb@2x.png
+  - src: /assets/img/screenshots/screenshot_v_phone_09.png
+    thumb: /assets/img/screenshots/screenshot_v_phone_09_thumb@2x.png
 
