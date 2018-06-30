@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Frequently Asked Questions"
-description: "Frequently asked questions about Juno, a Jupyter Notebook client for iPad."
+description: "Frequently asked questions about Juno, an iOS Jupyter Notebook client for iPad and iPhone."
 image: ""
 lang: "en_GB"
 date: 2017-09-01 11:00:00
@@ -9,23 +9,23 @@ author: Alex Staravoitau
 no-blog: true
 ---
 #### What is Juno?
-[Juno](https://itunes.apple.com/app/juno-jupyter-notebook-client/id1315744137){:target="_blank"} is an iPad client for Jupyter Notebook — it lets you connect to a remote Jupyter notebook server and do everything you do with Jupyter on desktop, anywhere.
+[Juno](https://itunes.apple.com/app/juno-jupyter-notebook-client/id1315744137){:target="_blank"} is an iOS client for Jupyter — it lets you connect to a remote Jupyter server from your iPhone or iPad and do everything you do with Jupyter on desktop, anywhere.
 
 #### Can it run notebooks locally?
 No, you need a [notebook server](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} that will do the actual computing. There are many options of running a notebook server: it can be your own laptop in your local network, AWS node, or even a dedicated powerful GPU-enabled machine configured as a public server or accessible via tunneling. Alternatively, you could use one of cloud computing services that are based on Jupyter, such as [CoCalc](http://cocalc.com){:target="_blank"} or [Azure Notebooks](https://notebooks.azure.com){:target="_blank"}.
 
 #### Can I use my home PC as a Jupyter server?
-Yes, absolutely! Your PC will need to be switched on and accessible to your iPad at all times though. There are a couple of ways of connecting to it: if your iPad is on the same local network, you can just use your PC's IP address. If you would like to connect over the internet, you would need to configure your PC as a public server (see [Running a public notebook server](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html#running-a-public-notebook-server){:target="_blank"} in Jupyter documentation).
+Yes, absolutely! Your PC will need to be switched on and accessible to your iOS device at all times though. There are a couple of ways of connecting to it: if your iPad or iPhone is on the same local network (say, Wi-Fi), you can just use your PC's IP address. If you would like to connect over the internet, you would need to configure your PC as a public server (see [Running a public notebook server](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html#running-a-public-notebook-server){:target="_blank"} in Jupyter documentation).
 
 #### Can I use SSH tunnel (aka port forwarding) in Juno?
-You can access your server in Juno if you have SSH tunnel established on your iPad; however, you may need a 3rd party app to configure the port forwarding part. There are apps on the AppStore that will let you establish a tunnel with port forwarding (for example, [this one](https://itunes.apple.com/app/ssh-tunnel/id1260223542?mt=8){:target="_blank"}), and Juno will then work by pointing it at `localhost` and mapped port.
+You can access your server in Juno if you have SSH tunnel established on your iOS device; however, you may need a 3rd party app to configure the port forwarding part. There are apps on the AppStore that will let you establish a tunnel with port forwarding (for example, [this one](https://itunes.apple.com/app/ssh-tunnel/id1260223542?mt=8){:target="_blank"}), and Juno will then work by pointing it at `localhost` and mapped port.
 
 {:refdef: .notice}
 <i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>We plan to include SSH tunneling capability in Juno in one of our future releases.</span>
 {: refdef}
 
 #### My notebooks won't connect!
-Usually this means that your server uses a self-signed SSL certificate for HTTPS which doesn't work on iOS due to security restrictions — neither in Safari nor in Juno. Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from iPad.
+Usually this means that your server uses a self-signed SSL certificate for HTTPS which doesn't work on iOS due to security restrictions — neither in Safari nor in Juno. Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from your iOS device.
 
 #### Can I use some preconfigured server instead?
 Yes, absolutely. If you don't want to go through the hassle of configuring your own server, you could use one of cloud computing services that are based on Jupyter, such as [CoCalc](http://cocalc.com){:target="_blank"} or [Azure Notebooks](https://notebooks.azure.com){:target="_blank"}.
@@ -46,11 +46,7 @@ Unfortunately, there is a known issue with assisted input using latin characters
 Editing of text files is switched off for now, but we are looking into ways of either allowing it the way Jupyter normally does, or at least letting you open copies of those files in other apps. Sorry for inconvenience meanwhile.
 
 #### Does Juno support JupyterLab?
-Juno doesn't support any JupyterLab specific features yet; however, all JupyterLab servers also include “classic" Jupyter Notebook as a fallback option, which Juno works perfectly with. You can access it by appending `/tree` to your JupyterLab server URL. 
-
-{:refdef: .notice}
-<i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>As of version 1.2, Juno should be able to detect JupyterLab servers and automatically redirect you to `/tree`.</span>
-{: refdef}
+Juno doesn't support any JupyterLab specific features yet; however, all JupyterLab servers also include “classic" Jupyter Notebook as a fallback option, which Juno works perfectly with. JupyterLab servers should be detected automatically in Juno, redirecting to this "classic" interface — if your server keeps loading JupyterLab, try appending `/tree` to your JupyterLab server URL. 
 
 #### We use Jupyter products in our organization
 If your workflow involves Jupyter notebooks and:
