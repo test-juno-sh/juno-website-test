@@ -8,7 +8,7 @@ date: 2018-07-01 12:00:00
 author: Alex Staravoitau
 ---
 
-**Juno 1.2** is out, and it is our first major update since hitting the AppStore! Juno is now a **universal app**, which means you can install it on your iPhone, bringing Jupyter to all mobile devices running iOS 10.3 or later. **Juno Pro** works for **all of your devices**, too: if you previously purchased Juno Pro on iPad, simply restore purchase on your iPhone. Juno supports same features on iPhone as the iPad version, so you will get full access to your Jupyter server wherever you are. <!--more-->
+**Juno 1.2** is out, and it is our first major update since hitting the AppStore! Juno is now a **universal app**, which means you can install it on both your iPhone _and_ iPad, bringing Jupyter to all mobile devices running iOS 10.3 or later. **Juno Pro** works for **all of your devices**, too: if you previously purchased Juno Pro on iPad, simply restore purchase on your iPhone. Juno supports same features on iPhone as the iPad version, so you will get full access to your Jupyter server wherever you are. <!--more-->
 
 <span style="display:block; height: 20px;"></span>
 ![Juno demo notebooks](/assets/img/blog/appstore_release_v_1_2_0.png)
@@ -33,7 +33,7 @@ We honestly hope that Juno turns out to be a good fit for your workflow and that
 * [Check out Juno on Product Hunt](https://www.producthunt.com/posts/juno-767a5996-5c93-4d62-880d-14268d1093e5) and leave feedback: the more people hear about Juno the better.
 * [Share your feedback with us](mailto:feedback@juno.sh) if you think Juno lacks or needs to improve something. We are listening!
 
-Thank you once again, and we hope you are enjoying Juno so far! Stay tuned for more stuff coming later this year. 😉
+Thank you once again, and we hope you enjoy Juno so far! Stay tuned for more stuff coming later this year. 😉
 
 <a href="https://itunes.apple.com/app/juno-jupyter-notebook-client/id1315744137" target="blank">
 	<span style="display:block; height: 20px;"></span>
