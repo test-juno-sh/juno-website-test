@@ -2,7 +2,7 @@
 
 # Site settings
 title: Juno
-description: "Juno: a Jupyter/IPython client for iPad. Connect to a notebook server with Juno and do everything you do on desktop, anywhere."
+description: "Juno: iOS Jupyter client for iPhone and iPad. Connect to a notebook server with Juno and do everything you do on desktop, anywhere."
 analytics: UA-104527683-1
 baseurl: 
 url: "//juno.sh"
