@@ -2,18 +2,18 @@
 - selector: example_slider
   captions: false
   images:
-    - data-src: /assets/img/screenshots/screenshot_h_01.png
-      data-src-2x: /assets/img/screenshots/screenshot_h_01@2x.png
-    - data-src: /assets/img/screenshots/screenshot_h_02.png
-      data-src-2x: /assets/img/screenshots/screenshot_h_02@2x.png
-    - data-src: /assets/img/screenshots/screenshot_h_03.png
-      data-src-2x: /assets/img/screenshots/screenshot_h_03@2x.png
-    - data-src: /assets/img/screenshots/screenshot_h_04.png
-      data-src-2x: /assets/img/screenshots/screenshot_h_04@2x.png
-    - data-src: /assets/img/screenshots/screenshot_h_05.png
-      data-src-2x: /assets/img/screenshots/screenshot_h_05@2x.png
-    - data-src: /assets/img/screenshots/screenshot_h_06.png
-      data-src-2x: /assets/img/screenshots/screenshot_h_06@2x.png
+    - data-src: /assets/img/screenshots/mockup/screenshot_h_01.png
+      data-src-2x: /assets/img/screenshots/mockup/screenshot_h_01@2x.png
+    - data-src: /assets/img/screenshots/mockup/screenshot_h_02.png
+      data-src-2x: /assets/img/screenshots/mockup/screenshot_h_02@2x.png
+    - data-src: /assets/img/screenshots/mockup/screenshot_h_03.png
+      data-src-2x: /assets/img/screenshots/mockup/screenshot_h_03@2x.png
+    - data-src: /assets/img/screenshots/mockup/screenshot_h_04.png
+      data-src-2x: /assets/img/screenshots/mockup/screenshot_h_04@2x.png
+    - data-src: /assets/img/screenshots/mockup/screenshot_h_05.png
+      data-src-2x: /assets/img/screenshots/mockup/screenshot_h_05@2x.png
+    - data-src: /assets/img/screenshots/mockup/screenshot_h_06.png
+      data-src-2x: /assets/img/screenshots/mockup/screenshot_h_06@2x.png
   settings:
     height: "'auto'"
     effect: "'fade'"
