@@ -8,7 +8,7 @@ date: 2017-09-01 10:00:00
 author: Alex Staravoitau
 ---
 
-In order to use Jupyter Notebook on iPad in both Juno and Safari, one needs to correctly configure SSL certificates. Since issuing a proper certificate from a trusted authority could be challenging in some cases, a self-signed certificate should suffice, provided it was signed by a CA that is trusted by device. 
+In order to use Jupyter Notebook on your iPad or iPhone in both Juno and Safari, one needs to correctly configure SSL certificates. Since issuing a proper certificate from a trusted authority could be challenging in some cases, a self-signed certificate should suffice, provided it was signed by a CA that is trusted by device. 
 
 Follow these steps to get it working on your iPad.<!--more-->
 
