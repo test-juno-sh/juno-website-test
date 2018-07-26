@@ -103,7 +103,7 @@ chmod 444 jupyter/certs/ssl.cert.pem
 
 ### Install CA certificate on your iOS device
 
-Install the **CA certificate** on your iPad (the one located at `ca/certs/ca.cert.pem`). You can e-mail it to yourself, share it via AirDrop or Dropbox — as soon as you open it on your iPad you will see installation popup.
+Install the **CA certificate** on your device (the one located at `ca/certs/ca.cert.pem`). You can e-mail it to yourself, share it via AirDrop or Dropbox — as soon as you open it on your iOS device you will see installation popup.
 
 ![iOS certificate installation](/assets/img/install_cert_s.png)
 {: style="text-align: center;"}
