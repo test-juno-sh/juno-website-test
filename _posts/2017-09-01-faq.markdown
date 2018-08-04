@@ -17,7 +17,7 @@ No, you need a [notebook server](http://jupyter-notebook.readthedocs.io/en/lates
 #### Can I use my home PC as a Jupyter server?
 Yes, absolutely! Your PC will need to be switched on and accessible to your iOS device at all times though. There are a couple of ways of connecting to it: if your iPad or iPhone is on the same local network (say, Wi-Fi), you can just use your PC's IP address. If you would like to connect over the internet, you would need to configure your PC as a public server (see [Running a public notebook server](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html#running-a-public-notebook-server){:target="_blank"} in Jupyter documentation).
 
-#### Can I use SSH tunnel (aka port forwarding) in Juno?
+#### Can I use SSH tunneling (aka port forwarding) in Juno?
 You can access your server in Juno if you have SSH tunnel established on your iOS device; however, you may need a 3rd party app to configure the port forwarding part. There are apps on the AppStore that will let you establish a tunnel with port forwarding (for example, [this one](https://itunes.apple.com/app/ssh-tunnel/id1260223542?mt=8){:target="_blank"}), and Juno will then work by pointing it at `localhost` and mapped port.
 
 {:refdef: .notice}
