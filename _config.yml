@@ -52,8 +52,8 @@ webmaster_verifications:
   yandex: 40577c77a6506097
 
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 defaults:
   - scope:
