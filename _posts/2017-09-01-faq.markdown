@@ -17,6 +17,10 @@ No, you need a [notebook server](http://jupyter-notebook.readthedocs.io/en/lates
 #### Can I use my home PC as a Jupyter server?
 Yes, absolutely! Your PC will need to be switched on and accessible to your iOS device at all times though. There are a couple of ways of connecting to it: if your iPad or iPhone is on the same local network (say, Wi-Fi), you can just use your PC's IP address. If you would like to connect over the internet, you would need to configure your PC as a public server (see [Running a public notebook server](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html#running-a-public-notebook-server){:target="_blank"} in Jupyter documentation).
 
+{:refdef: .notice}
+<i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>Keep in mind, that you will need to configure your Jupyter installation to expose it to incoming connections. There are two things you need to put in your [Jupyter config file](https://jupyter-notebook.readthedocs.io/en/stable/config.html): `NotebookApp.ip` set to `'*'`, and `NotebookApp.allow_remote_access` set to `true`.</span>
+{: refdef}
+
 #### Can I use SSH tunneling (aka port forwarding) in Juno?
 You can access your server in Juno if you have SSH tunnel established on your iOS device; however, you may need a 3rd party app to configure the port forwarding part. There are apps on the AppStore that will let you establish a tunnel with port forwarding (for example, [this one](https://itunes.apple.com/app/ssh-tunnel/id1260223542?mt=8){:target="_blank"}), and Juno will then work by pointing it at `localhost` and mapped port.
 
@@ -24,8 +28,15 @@ You can access your server in Juno if you have SSH tunnel established on your iO
 <i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>We plan to include SSH tunneling capability in Juno in one of our future releases.</span>
 {: refdef}
 
+#### My server is 'Unreachable'!
+Usually, this means that there is a networking issue, and most likely you just need to configure your Jupyter installation to expose it to incoming connections. There are two things you need to put in your [Jupyter config file](https://jupyter-notebook.readthedocs.io/en/stable/config.html): `NotebookApp.ip` set to `'*'`, and `NotebookApp.allow_remote_access` set to `true`.
+
 #### My notebooks won't connect!
-Usually this means that your server uses a self-signed SSL certificate for HTTPS which doesn't work on iOS due to security restrictions — neither in Safari nor in Juno. Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from your iOS device.
+Usually, this means that your server uses a self-signed SSL certificate for HTTPS which doesn't work on iOS due to security restrictions — neither in Safari nor in Juno. Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from your iOS device.
+
+{:refdef: .notice}
+<i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>Keep in mind that your SSL certificate must use the same server host that you specify in Juno server settings: e.g. public IP for connecting directly, `localhost` for connecting via SSH tunnel (port forwarding), or local IP address for connecting from the same local network.</span>
+{: refdef}
 
 #### Can I use some preconfigured server instead?
 Yes, absolutely. If you don't want to go through the hassle of configuring your own server, you could use one of cloud computing services that are based on Jupyter, such as [CoCalc](http://cocalc.com){:target="_blank"} or [Azure Notebooks](https://notebooks.azure.com){:target="_blank"}.
