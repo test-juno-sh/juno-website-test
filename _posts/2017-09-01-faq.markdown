@@ -35,7 +35,7 @@ Usually, this means that there is a networking issue, and most likely you just n
 Usually, this means that your server uses a self-signed SSL certificate for HTTPS which doesn't work on iOS due to security restrictions — neither in Safari nor in Juno. Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from your iOS device.
 
 {:refdef: .notice}
-<i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>Keep in mind that your SSL certificate must use the same server host that you specify in Juno server settings: e.g. public IP for connecting directly, `localhost` for connecting via SSH tunnel (port forwarding), or local IP address for connecting from the same local network.</span>
+<i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>Keep in mind that your SSL certificate must use the same server host that you specify in Juno server settings: e.g. public IP for connecting directly, `localhost` for connecting via SSH tunnel, or local IP address for connecting from the same local network.</span>
 {: refdef}
 
 #### Can I use some preconfigured server instead?
