@@ -1,2 +1,6 @@
 _site
-.DS_Store
+.DS_STORE
+node_modules
+*.sublime-project
+*.sublime-workspace
+.sass-cache

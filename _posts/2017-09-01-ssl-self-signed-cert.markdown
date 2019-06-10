@@ -12,7 +12,7 @@ In order to use Jupyter Notebook on your iPad or iPhone in both Juno and Safari,
 
 Follow these steps to get it working on your iPhone or iPad.<!--more-->
 
-### Prerequisites
+## Prerequisites
 
 The openssl library is required to generate your own certificate. Run the following command in your local environment to see if you already have openssl installed.
 
@@ -29,9 +29,9 @@ If `which` command does not return a path then you will need to install openssl 
 | Windows        | [Windows complete package .exe installer](http://gnuwin32.sourceforge.net/packages/openssl.htm) |
 | Ubuntu         | `apt-get install openssl` |
 
-### Prepare configuration file
+## Prepare configuration file
 
-[Download configuration file](/assets/openssl.cnf) and put it in the folder, where you are going to store your SSH keys and certificates. 
+[Download configuration file](/images/openssl.cnf) and put it in the folder, where you are going to store your SSH keys and certificates. 
 
 Open configuration file in a text editor of your choice and put domain names and/or IP addresses of your servers at the bottom, in the **[ alt_names ]** section. If you connect to your server using its IP address (which happens to be **192.168.0.1**), your configuration file should end with:
 
@@ -42,7 +42,7 @@ Open configuration file in a text editor of your choice and put domain names and
 IP.1 	= 192.168.0.1
 ```
 
-### Generate CA certificate
+## Generate CA certificate
 
 Open terminal and go to the directory with your configuration file, which will also be the root directory of where all your keys and certificates will be stored.
 
@@ -72,7 +72,7 @@ openssl req -config openssl.cnf \
 chmod 444 ca/certs/ca.cert.pem
 ```
 
-### Generate SSL certificate
+## Generate SSL certificate
 
 Assuming you are still in the directory where your configuration file is, create the directory structure and generate a new server key.
 
@@ -101,21 +101,21 @@ openssl ca -config openssl.cnf \
 chmod 444 jupyter/certs/ssl.cert.pem
 ```
 
-### Install CA certificate on your iOS device
+## Install CA certificate on your iOS device
 
 Install the **CA certificate** on your device (the one located at `ca/certs/ca.cert.pem`). You can e-mail it to yourself, share it via AirDrop or Dropbox — as soon as you open it on your iOS device you will see installation popup.
 
-![iOS certificate installation](/assets/img/install_cert_s.png)
+![iOS certificate installation](/images/blog/install_cert_s.png)
 {: style="text-align: center;"}
 
-### Enable full trust for installed certificate
+## Enable full trust for installed certificate
 
 As of iOS 10.3 [you must manually turn on trust](https://support.apple.com/en-gb/HT204477) for SSL when you install a certificate. In order to turn on SSL trust for CA certificate, go to Settings > General > About > Certificate Trust Settings. Under "Enable full trust for root certificates", turn on trust for the certificate.
 
-![iOS certificate installation](/assets/img/enable_cert_s.png)
+![iOS certificate installation](/images/blog/enable_cert_s.png)
 {: style="text-align: center;"}
 
-### Run Jupyter Notebook
+## Run Jupyter Notebook
 
 Once CA certificate is trusted on the device, all certificates signed with it will be trusted too, including the one we generated for SSL, located at `jupyter/certs/ssl.cert.pem`. You can now use it when launching Jupyter Notebook by providing absolute paths to both key and certificate. If you generate all your certificate and keys in `~/.ssh/` folder, your paths will be:
 
