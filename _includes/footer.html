@@ -1,14 +1,10 @@
-<div id="footerwrap">
-    <div class="container post-content">
-        <div class="footer-details">
-            <p align="center">
-                © 2018 Juno <i class="fa fa-heart" style="color:#ed4956"></i> Rational Matter  
-                <span style="display:inline-block; width: 10px;"></span> 
-                <a href="mailto:{{ site.email }}" target="_blank"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i> {{ site.email }}</a> 
-                <span style="display:inline-block; width: 10px;"></span> 
-                <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i> {{ site.twitter.username }}</a>
-                <span style="display:inline-block; width: 10px;"></span> 
-                <a href="{{"/privacy-policy/" | prepend: site.baseurl }}" target="_blank"><i class="fa fa-user-secret fa-fw" aria-hidden="true"></i> Privacy Policy</a></p>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+<footer class="footer">
+  <div class="footer__left">© 2018 Juno, Rational Matter</div>
+  <div class="footer__right">
+    <ul class="footer__menu">
+      <li class="footer__item"><a class="footer__link" href="/privacy-policy/">Privacy Policy</a></li>
+      <li class="footer__item"><a class="footer__link footer__link--twitter" href="https://twitter.com/junoclient" target="_black">junoclient</a></li>
+      <li class="footer__item"><a class="footer__link" href="mailto:contact@juno.sh"> contact@juno.sh</a></li>
+    </ul>
+  </div>
+</footer>

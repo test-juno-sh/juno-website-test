@@ -1,17 +1,41 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html class="html html--nojs" lang="en">
 
-{% include wrap.html %}
+  {% include head.html %}
 
-<div class="container post-content mb">
-    <div class="row">
-        <! -- SINGLE POST -->
-        <! -- Blog Post  -->
-        <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
-          
-        {{ content }}
+  <body class="body">
+    <div class="body__header">
 
-        <div class="spacing"></div>
-    </div><! --/row -->
-</div><! --/container -->
+      {% include header.html %}
+
+    </div>
+    <div class="body__body">
+      <div class="body__title">
+        <div class="title title--white">
+          <div class="title__breadcrumbs">
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/blog/">Blog</a></li>
+            </ul>
+          </div>
+          <h1 class="title__heading">{{ page.title }}</h1>
+          <div class="title__date">{{ page.date | date: "%b %-d, %Y" }}</div>
+        </div>
+      </div>
+      <div class="body__content body__content--white">
+        <div class="page">
+
+          {{ content }}
+
+        </div>
+      </div>
+      <div class="body__footer">
+
+        {% include footer.html %}
+
+      </div>
+    </div>
+
+    {% include script.html %}
+
+  </body>
+</html>

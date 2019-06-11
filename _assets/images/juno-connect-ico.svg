@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="140px" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>juno-connect-ico</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="juno-connect-ico" fill-rule="nonzero">
+            <path d="M110.279057,140 L29.7209434,140 C13.3072947,140 0,126.692705 0,110.279057 L0,29.7209434 C0,13.3072947 13.3072947,0 29.7209434,0 L110.279057,0 C126.692705,0 140,13.3072947 140,29.7209434 L140,110.279057 C140,126.692705 126.692705,140 110.279057,140" id="Fill-1" fill="#000000"></path>
+            <path d="M119.180195,69.103886 C119.180195,96.368717 97.0787184,118.470194 69.8138872,118.470194 C42.549056,118.470194 20.4452584,96.368717 20.4452584,69.103886 C20.4452584,41.8367342 42.549056,19.7352572 69.8138872,19.7352572 C97.0787184,19.7352572 119.180195,41.8367342 119.180195,69.103886" id="Fill-4" fill="#EF7200"></path>
+            <polygon id="Fill-6" fill="#FEFEFE" points="69.8117986 104.010713 104.718394 104.010713 104.718394 69.104118 69.8117986 69.104118"></polygon>
+        </g>
+    </g>
+</svg>

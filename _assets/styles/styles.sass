@@ -1,0 +1,1022 @@
+@import 'node_modules/normalize.sass/_normalize.sass'
+
+@import '_fonts'
+@import '_vars'
+@import '_mixins'
+@import '_primitives'
+@import '_blocks'
+
+.body
+  position: relative
+  background-color: $black
+
+  .body__body
+    margin-top: 100px
+    background-color: $white
+    min-height: calc(100vh - 100px)
+
+  .html--black & .body__body
+    background-color: transparent
+
+  .body__header
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 90
+    right: 0
+
+  .body__content
+    +layout
+    padding-top: 40px
+
+    &.body__content--white
+      padding-top: 0
+
+  .body__newsletter
+    margin-top: 64px
+
+  .body__download
+    padding-top: 152px
+    padding-bottom: 76px
+
+  @media screen and (min-width: 768px)
+
+    .body__body
+      margin-top: 130px
+      min-height: calc(100vh - 130px)
+
+    .body__content
+      padding-top: 92px
+
+    .body__newsletter
+      margin-top: 80px
+
+    .body__download
+      padding-top: 148px
+      padding-bottom: 0
+
+  @media screen and (min-width: 1272px)
+
+    .body__body
+      margin-top: 156px
+      min-height: calc(100vh - 156px)
+
+.title
+  background-color: $black
+  padding-top: 8px
+  padding-bottom: 25px
+  color: $white
+
+  .title__breadcrumbs
+    +layout
+
+  .title__heading
+    +layout
+    +mono
+    +light
+    +fs(50px, 70px)
+    margin-top: 0
+    margin-bottom: 0
+    text-align: center
+
+  .title__date
+    +layout
+
+  &.title--white
+    background-color: transparent
+    color: $black
+    padding-top: 32px
+    padding-bottom: 40px
+
+    .title__breadcrumbs
+      margin-bottom: 24px
+
+    .title__heading
+      +fs(35px, 45px)
+      +regular
+      text-align: left
+
+    .title__date
+      margin-top: 17px
+
+  @media screen and (min-width: 768px)
+    padding-top: 0
+    padding-bottom: 30px
+
+    .title__heading
+      +fs(75px, 100px)
+
+    &.title--white
+      padding-top: 60px
+      padding-bottom: 68px
+
+      .title__breadcrumbs
+        margin-bottom: 48px
+
+      .title__heading
+        +fs(40px, 50px)
+        transform: translateX(-1px)
+
+      .title__date
+        margin-top: 19px
+
+  @media screen and (min-width: 1272px)
+    padding-bottom: 36px
+
+    .title__heading
+      +fs(90px, 120px)
+
+    &.title--white
+      padding-top: 72px
+      padding-bottom: 82px
+
+      .title__breadcrumbs
+        margin-bottom: 58px
+
+      .title__heading
+        +fs(48px, 60px)
+        transform: translateX(-2px)
+
+      .title__date
+        margin-top: 23px
+
+.teasers
+
+  .teasers__item
+    margin-bottom: 64px
+
+  .teasers__pagination
+    margin-top: 90px
+    margin-bottom: 40px
+
+  @media screen and (min-width: 1272px)
+
+    .teasers__item
+      margin-bottom: 77px
+
+    .teasers__pagination
+      margin-top: 108px
+      margin-bottom: 48px
+
+.teaser
+  overflow: hidden
+
+  .teaser__title
+    +fs(25px, 35px)
+    +regular
+    +mono
+    margin: 0 0 24px
+
+    a
+      +link--bare
+
+  .teaser__date
+    +fs(13px, 20px)
+    margin-top: -8px
+    margin-bottom: 16px
+
+  .teaser__image
+    margin-top: 20px
+    margin-bottom: 20px
+    display: block
+    border-bottom: none
+    line-height: 0
+
+    img
+      width: 100%
+
+  .teaser__snippet
+    margin-bottom: 28px
+
+  .teaser__readmore
+    display: inline-block
+
+  @media screen and (min-width: 480px)
+
+    .teaser__image
+      float: right
+      width: 200px
+      margin-top: 8px
+      margin-bottom: 0
+
+    .teaser__image + .teaser__snippet
+      padding-right: 230px
+
+  @media screen and (min-width: 568px)
+
+    .teaser__image
+      width: 236px
+
+    .teaser__image + .teaser__snippet
+      padding-right: 266px
+
+  @media screen and (min-width: 768px)
+
+    .teaser__title
+      +fs(30px, 40px)
+      margin-bottom: 20px
+
+    .teaser__date
+      +fs(15px, 23px)
+      margin-top: -2px
+      margin-bottom: 20px
+
+    .teaser__snippet
+      margin-bottom: 24px
+
+    .teaser__readmore
+
+  @media screen and (min-width: 1272px)
+
+    .teaser__title
+      +fs(36px, 48px)
+      margin-bottom: 24px
+
+    .teaser__date
+      +fs(18px, 28px)
+      margin-bottom: 24px
+
+    .teaser__snippet
+      margin-bottom: 29px
+
+    .teaser__image
+      width: 280px
+
+    .teaser__image + .teaser__snippet
+      padding-right: 320px
+
+.breadcrumbs
+  +fs(16px, 25px)
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+  li
+    margin: 0 20px 0 0
+    padding: 0
+    display: inline-block
+
+    &:before
+      content: none
+
+  @media screen and (min-width: 768px)
+    +fs(18px, 30px)
+
+  @media screen and (min-width: 1272px)
+    +fs(22px, 36px)
+
+.footer
+  +layout
+  +fs(16px, 25px)
+  text-align: center
+  padding-top: 72px
+  padding-bottom:  96px
+
+  .footer__left
+    margin-bottom: 16px
+
+  .footer__right
+
+  .footer__menu
+    margin-bottom: 0
+
+  .footer__item
+    padding-left: 0
+
+    &:not(:last-child)
+      margin-bottom: 16px
+
+    &:before
+      content: none
+
+  .footer__link
+    +link--bare
+
+    &.footer__link--twitter
+      padding-left: 22px
+      position: relative
+
+      &:before
+        +transition
+        transition-property: background-image
+        content: ''
+        display: block
+        width: 16px
+        height: 16px
+        background: url('../images/twitter-black.svg') no-repeat center
+        position: absolute
+        top: 3px
+        left: 0
+
+  .html--desktop &
+    .footer__link:hover
+      &.footer__link--twitter
+        &:before
+          background-image: url('../images/twitter-orange.svg')
+
+  .html--black &
+    color: $white
+
+    .footer__link
+      +link--white
+
+      &.footer__link--twitter
+        &:before
+          background-image: url('../images/twitter-white.svg')
+
+  @media screen and (min-width: 768px)
+    display: flex
+    justify-content: space-between
+    padding-top: 160px
+    padding-bottom: 28px
+
+    .footer__left
+      margin-bottom: 0
+
+    .footer__right
+
+    .footer__menu
+      margin: 0
+
+    .footer__item
+      margin-bottom: 0
+      margin-left: 24px
+      display: inline-block
+
+      &:not(:last-child)
+        margin-bottom: 0
+
+    .footer__link
+
+      &.footer__link--twitter
+
+  @media screen and (min-width: 840px)
+    max-width: 100%
+    padding-left: 36px
+    padding-right: 36px
+
+  @media screen and (min-width: 1272px)
+    +fs(19px, 30px)
+    padding: 192px 44px 32px
+
+    .footer__link
+
+      &.footer__link--twitter
+
+        &:before
+          top: 5px
+
+.page
+  & > *:first-child
+    margin-top: 0
+
+.pagination
+  display: flex
+  justify-content: center
+  margin: 0
+  padding: 0
+
+  .pagination__item
+    width: 50%
+    margin: 0
+    padding: 0
+    max-width: 256px
+
+    &:before
+      content: none
+
+    &:first-child
+      padding-right: 8px
+
+    &:last-child
+      padding-left: 8px
+
+    &:only-child
+      padding: 0
+      width: 75%
+      max-width: 300px
+
+      span
+        display: inline
+
+  .pagination__link
+    +button
+
+.header
+  height: 65px
+  color: $white
+  background-color: $black
+  position: relative
+  display: flex
+  justify-content: space-between
+  user-select: none
+
+  .header__burger
+    width: 65px
+    height: 65px
+    right: 0
+    top: 0
+    position: absolute
+    z-index: 100
+
+  .header__menu
+    margin: 0
+    padding: 0
+    display: flex
+
+  .header__link
+    color: $white
+    border-bottom: none
+    display: block
+
+    span
+      display: block
+
+  .header__item
+    margin: 0
+    padding: 0
+    display: block
+
+    &:before
+      content: none
+
+    &.header__item--active .header__link:hover
+      color: $white
+
+    &.header__item--active .header__link span
+      border-bottom: 1px solid $white
+
+  .header__explicit
+
+    .header__menu
+      padding: 12px 0 0 20px
+
+    .header__link
+      span
+        background-repeat: no-repeat
+        background-position: 0 11px
+        font-size: 0
+        line-height: 40px
+
+    .header__item--juno .header__link span
+      background-image: url('../images/juno.svg')
+      width: 54px
+
+    .header__item--junoconnect .header__link span
+      background-image: url('../images/juno-connect.svg')
+      width: 156px
+
+    .header__item
+      margin-right: 20px
+
+  .header__implicit
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background-color: $black
+    display: flex
+    z-index: 99
+    opacity: 0
+    pointer-events: none
+
+    .header__menu
+      +mono
+      +light
+      +fs(50px, 72px)
+      text-align: center
+      margin: auto
+      display: block
+
+    .header__link
+      padding-top: 12px
+      padding-bottom: 12px
+
+  .html--burger &
+    .header__implicit
+      opacity: 1
+      pointer-events: all
+
+  .html--desktop &
+    .header__link
+      &:hover
+        color: $orange
+
+  .html--black &
+    &:after
+      content: ''
+      display: block
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))
+      position: absolute
+      top: 65px
+      left: 0
+      right: 0
+      height: 60px
+      z-index: 99
+      pointer-events: none
+
+  @media screen and (min-width: 768px)
+
+    .header__burger
+      display: none
+
+    .header__explicit
+
+      .header__menu
+        padding-left: 36px
+
+    .header__implicit
+      opacity: 1
+      pointer-events: all
+      position: static
+      background-color: transparent
+      display: block
+
+      .header__menu
+        +sans
+        +regular
+        +fs(18px, 40px)
+        margin: 0
+        padding-top: 12px
+        padding-right: 18px
+        display: flex
+
+      .header__item
+
+      .header__link
+        padding: 0 18px
+
+    .html--black &
+      &:after
+        height: 90px
+
+  @media screen and (min-width: 1272px)
+
+    .header__explicit
+
+      .header__menu
+        padding-left: 44px
+
+      .header__item
+        margin-right: 24px
+
+    .header__implicit
+
+      .header__menu
+        padding-right: 22px
+
+      .header__link
+        padding: 0 22px
+
+.burger
+  +tap
+  width: 65px
+  height: 65px
+  padding: 22px
+
+  .burger__line
+    height: 2px
+    width: 20px
+    background-color: $white
+
+    &:not(:last-child)
+      margin-bottom: 7px
+
+  .html--burger &
+    transform: rotate(45deg)
+
+    .burger__line
+      &:last-child
+        transform: translateY(-9px)
+      &:first-child
+        transform: rotate(90deg) translateX(9px)
+
+.illustrated-link
+  +link--bare
+
+.emerge
+  +transiiiition
+  transition-property: opacity, transform
+  opacity: 0
+  transform: translateY(20px)
+
+  &.emerge--visible
+    opacity: 1
+    transform: translateY(0px)
+
+.z
+  +layout--l
+  color: $white
+  margin-bottom: 148px
+
+  .z__item
+    text-align: center
+    margin-bottom: 64px
+
+  .z__title
+    +fs(35px, 45px)
+    +mono
+    +light
+
+  .z__image
+    line-height: 0
+    margin-top: 20px
+    margin-bottom: 24px
+
+    img
+      display: block
+
+  .z__desc
+    +fs(18px, 26px)
+    +light
+    max-width: 500px
+    margin-left: auto
+    margin-right: auto
+
+  .z__more
+    display: flex
+    justify-content: center
+
+  .z__more-link
+    width: 66%
+    max-width: 280px
+    +button
+
+  @media screen and (min-width: 568px)
+
+    .z__item
+      margin-bottom: 80px
+
+    .z__title
+
+    .z__image
+      margin-top: 28px
+      margin-bottom: 32px
+
+    .z__desc
+
+  @media screen and (min-width: 1017px)
+
+    .z__item
+      text-align: left
+      margin-bottom: 100px
+      position: relative
+      min-height: 388px
+      padding-right: 618px
+
+    .z__title
+      +fs(40px, 55px)
+      margin-bottom: 20px
+
+    .z__image
+      width: 502px
+      position: absolute
+      top: 15px
+      right: 0
+      margin: 0
+
+    .z__desc
+      +fs(20px, 30px)
+      max-width: 290px
+      margin-left: 0
+      margin-right: 0
+
+    .z__item:nth-child(even)
+      padding-right: 0
+      padding-left: 618px
+
+      .z__image
+        right: auto
+        left: 0
+
+  @media screen and (min-width: 1272px)
+
+    .z__item
+      min-height: 500px
+      margin-bottom: 140px
+      padding-right: 772px
+
+    .z__title
+      +fs(45px, 60px)
+      margin-bottom: 28px
+
+    .z__desc
+      +fs(30px, 45px)
+      max-width: 100%
+
+    .z__image
+      width: 650px
+
+    .z__item:nth-child(even)
+      padding-right: 0
+      padding-left: 772px
+
+.product
+  +layout
+  color: $white
+  text-align: center
+  overflow: hidden
+
+  .product__heading
+    +fs(50px, 70px)
+    +light
+    +mono
+    margin-bottom: 52px
+    padding-top: 8px
+
+  .product__icon
+    margin-bottom: 48px
+
+  .product__lead
+    +fs(20px, 30px)
+    +light
+    margin: 0 auto 64px
+    max-width: 450px
+
+  .product__download
+    background: url('../images/apple-store.svg') no-repeat center
+    width: 210px
+    height: 70px
+    display: block
+    border: none
+    font-size: 0
+    margin: 0 auto 92px
+
+  .product__wrapper + .product__wrapper
+    margin-top: 100px
+
+  @media screen and (min-width: 768px)
+
+    .product__heading
+      +fs(75px, 100px)
+      margin-bottom: 60px
+      padding-top: 0
+
+    .product__icon
+      margin-bottom: 56px
+
+    .product__lead
+      +fs(25px, 40px)
+      margin-bottom: 40px
+      max-width: 100%
+
+    .product__download
+      margin-bottom: 152px
+
+  @media screen and (min-width: 1272px)
+    max-width: 920px
+
+    .product__heading
+      +fs(90px, 120px)
+      margin-bottom: 72px
+
+    .product__icon
+      margin-bottom: 68px
+
+    .product__lead
+      +fs(30px, 45px)
+      margin-bottom: 48px
+
+    .product__download
+      margin-bottom: 180px
+
+@keyframes fadein
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+.appicon
+  text-align: center
+  color: $white !important
+  border-bottom: none
+  width: 140px
+  height: 186px
+  position: relative
+  margin-left: auto
+  margin-right: auto
+  display: block
+  user-select: none
+
+  .appicon__icon
+    width: 140px
+    height: 140px
+    position: relative
+
+  .appicon__ico
+    +stretch
+    background-position: center
+    background-repeat: no-repeat
+    z-index: 2
+
+  .appicon__shadow-hover
+    +transiiition
+    transition-property: opacity
+    transition-duration: 1s
+    position: absolute
+    width: 400px
+    height: 400px
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    z-index: 1
+    pointer-events: none
+    opacity: 0.5
+
+  .appicon__shadow-fadein
+    +transiition
+    transition-property: opacity
+    animation: fadein 2s ease-out forwards
+
+  .appicon__shadow
+    +stretch
+    +transition
+    transition-property: opacity
+    background: url('../images/shadow.png')
+    background-size: cover
+    opacity: 0.6
+
+  .appicon__title
+    font-size: 0
+    height: 30px
+    white-space: nowrap
+    position: absolute
+    top: 157px
+    left: 50%
+    transform: translateX(-50%)
+    background-repeat: no-repeat
+    background-position: center
+
+  &.appicon--juno
+
+    .appicon__ico
+      background-image: url('../images/juno-ico.svg')
+
+    .appicon__title
+      background-image: url('../images/juno-root.svg')
+      width: 52px
+
+  &.appicon--jc
+
+    .appicon__ico
+      background-image: url('../images/juno-connect-ico.svg')
+
+    .appicon__title
+      background-image: url('../images/juno-connect-root.svg')
+      width: 150px
+
+  .html--desktop &
+    &.appicon--link:hover
+      .appicon__shadow-hover
+        opacity: .8
+
+  @media screen and (min-width: 768px)
+    height: 165px
+
+.newsletter
+  +layout
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-align: center
+
+  .newsletter__title
+    +mono
+    +light
+    +fs(35px, 46px)
+    color: $white
+    margin: 0 0 20px
+
+  .newsletter__button
+    +button
+    line-height: 50px
+    width: 50%
+    max-width: 180px
+
+  .newsletter__form
+    max-width: 528px
+    margin-left: auto
+    margin-right: auto
+
+  .newsletter__input,
+  .newsletter__submit
+    +sans
+    +fs(18px, 24px)
+    display: block
+    width: 100%
+    height: 50px
+    text-align: center
+    border: none
+
+    &:focus
+      outline: none
+
+  .newsletter__input
+    border-radius: 5px 5px 0 0
+    background-color: $white
+    padding-left: 16px
+    padding-right: 16px
+
+  .newsletter__submit
+    +tap
+    border-radius: 0 0 5px 5px
+    background-color: transparent
+    color: $white
+    box-shadow: inset 0 0 0 1px $white
+
+  .html--desktop &
+    .newsletter__submit
+      &:focus,
+      &:hover
+        background-color: $orange
+        box-shadow: none
+
+  @media screen and (min-width: 568px)
+
+    .newsletter__title
+      +fs(40px, 52px)
+      margin-bottom: 28px
+
+    .newsletter__form
+      display: flex
+
+    .newsletter__input
+      border-radius: 5px 0 0 5px
+      text-align: left
+
+    .newsletter__submit
+      width: 200px
+      border-radius: 0 5px 5px 0
+
+  @media screen and (min-width: 1272px)
+
+    .newsletter__title
+      +fs(48px, 64px)
+      margin-bottom: 32px
+
+    .newsletter__button
+      line-height: 60px
+
+.download
+  max-width: 296px
+  display: flex
+  margin-left: auto
+  margin-right: auto
+  flex-direction: column
+  border: none !important
+  align-items: center
+
+  .download__icon
+    width: 70px
+    height: 70px
+    margin-bottom: 28px
+    background-repeat: no-repeat
+    background-position: center
+    position: relative
+    background-size: cover
+
+    &:after
+      +transiiition
+      transition-property: opacity
+      content: ''
+      display: block
+      background: url('../images/shadow.png')
+      background-size: cover
+      width: 232px
+      height: 232px
+      position: absolute
+      z-index: -1
+      top: 35px
+      left: 35px
+      transform: translate(-50%, -50%)
+      opacity: 0.2
+      pointer-events: none
+
+  .download__store
+    background: url('../images/apple-store.svg') no-repeat center
+    width: 210px
+    height: 70px
+
+  &.download--j
+    .download__icon
+      background-image: url('../images/juno-ico.svg')
+
+  &.download--jc
+    .download__icon
+      background-image: url('../images/juno-connect-ico.svg')
+
+  .html--desktop &:hover
+    .download__icon:after
+      opacity: 0.25
+
+  @media screen and (min-width: 768px)
+    max-width: 296px
+    flex-direction: row
+    justify-content: center
+
+    .download__icon
+      margin-bottom: 0
+
+    .download__store
+      margin-left: 16px
