@@ -5,7 +5,7 @@ title: Juno
 description: "Juno: iOS Jupyter client for iPhone and iPad. Connect to a notebook server with Juno and do everything you do on desktop, anywhere."
 analytics: UA-104527683-1
 baseurl:
-url: "//juno.sh"
+url: "//juno-website-test"
 image: /assets/images/open-graph.png
 
 # Build settings
