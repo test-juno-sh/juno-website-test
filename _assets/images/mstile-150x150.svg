@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M74.9988327,23 C46.3251173,23 23,46.3274519 23,74.9988327 C23,103.672548 46.3251173,127 74.9988327,127 C103.672548,127 127,103.672548 127,74.9988327 C127,46.3274519 103.672548,23 74.9988327,23 M74.9988327,25.3346129 C102.428199,25.3346129 124.665387,47.569466 124.665387,74.9988327 C124.665387,102.428199 102.428199,124.665387 74.9988327,124.665387 C47.569466,124.665387 25.3346129,102.428199 25.3346129,74.9988327 C25.3346129,47.569466 47.569466,25.3346129 74.9988327,25.3346129" id="Fill-4" fill="#FFFFFF"></path>
+        <polygon id="Fill-6" fill="#FFFFFF" points="75 110 110 110 110 75 75 75"></polygon>
+    </g>
+</svg>

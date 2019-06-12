@@ -2,7 +2,7 @@
 layout: post
 title: "Juno 1.3 adds Binder integration"
 description: "Juno 1.3 is out bringing Binder integration, kernel switcher and more"
-image: /assets/img/blog/appstore_release_v_1_3_0.png
+image: /images/blog/appstore_release_v_1_3_0.png
 lang: "en_GB"
 date: 2019-02-04 12:00:00
 author: Alex Staravoitau
@@ -11,7 +11,7 @@ author: Alex Staravoitau
 **Juno 1.3** is out now, bringing a whole bunch of new features and bug fixes! Juno now supports [Binder](https://mybinder.org), a service for launching git repositories with notebooks as executable Jupyter environments: you can specify a GitHub or GitLab repo containing Jupyter notebooks you would like to run, and it will be launched as a temporary Jupyter server in Juno. <!--more-->
 
 <span style="display:block; height: 20px;"></span>
-![Juno demo notebooks](/assets/img/blog/appstore_release_v_1_3_0.png)
+![Juno demo notebooks](/images/blog/appstore_release_v_1_3_0.png)
 {: style="text-align: center;"}
 <span style="display:block; height: 20px;"></span>
 
@@ -30,10 +30,10 @@ Other changes include:
 * **Basic HTTP Authentication support**. Juno will now allow you to authenticate against your Jupyter server if it's using Basic HTTP Authentication.
 * **Bug fixes and performance improvements**. There are many smaller performance related improvements that might be less prominent, but should still make a difference altogether.
 
-#### Juno and Juno Pro
+## Juno and Juno Pro
 Juno is still available for free, with an optional in-app purchase to unlock Juno Pro if you want to connect to an arbitrary Jupyter server, or use your cloud computing service account — you only purchase it **once for all of your devices**! However, I did my best to make free version of Juno fun as well: you can play with introductory notebooks on Jupyter, Python, NumPy, Matplotlib and SciPy right out of the box without paying anything, those notebooks will be launched on a temporary server just for you using [Binder](https://mybinder.org) service. I plan to keep adding new intoductory notebooks in order to keep things interesting. 🙂
 
-#### Juno Needs Your Support
+## Juno Needs Your Support
 I honestly hope that Juno turns out to be a good fit for your workflow and that you find it useful. If you like Juno, keep in mind that **there are many ways to support its development** and keep it going:
 
 * Consider leaving a positive [review on the AppStore](https://itunes.apple.com/app/juno-jupyter-notebook-client/id1315744137): this honestly means the world to me.
@@ -42,7 +42,7 @@ I honestly hope that Juno turns out to be a good fit for your workflow and that 
 
 <a href="https://itunes.apple.com/app/juno-jupyter-notebook-client/id1315744137" target="blank">
 	<span style="display:block; height: 20px;"></span>
-    <img class="download-appstore-badge" style="height: 60px;" alt="Download Juno on AppStore" src="{{ "/assets/img/download_black.svg" | prepend: site.baseurl }}">
+    <img class="download-appstore-badge" style="height: 60px;" alt="Download Juno on AppStore" src="{{ "/images/download_black.svg" | prepend: site.baseurl }}">
 </a>
 {: style="text-align: center;"}
 

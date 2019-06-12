@@ -4,23 +4,23 @@
 title: Juno
 description: "Juno: iOS Jupyter client for iPhone and iPad. Connect to a notebook server with Juno and do everything you do on desktop, anywhere."
 analytics: UA-104527683-1
-baseurl: 
+baseurl:
 url: "//juno.sh"
-image: assets/img/screenshot_cut.png
+image: /assets/images/open-graph.png
 
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
-excerpt_separator: <!--more--> 
+excerpt_separator: <!--more-->
 
 # Syntax highlighting
 highlighter: rouge
 kramdown:
-    input: GFM 
+    input: GFM
     syntax_highlighter: rouge
 
 colors:  #in hex code if not noted else
-  primary: "#E76817" 
+  primary: "#E76817"
   blog_heading: "#E6A14A"
   primary_gradient_top: "#EA802C"
   primary_gradient_bottom: "#EBAF53"
@@ -34,7 +34,7 @@ colors:  #in hex code if not noted else
 twitter:
   username: junoclient
 
-logo: /assets/img/logo.png
+logo: /assets/images/open-graph.png
 about: "Connect to a Jupyter/IPython server with Juno and do everything you do on desktop, anywhere. Sign up for beta now!"
 author: "Alex Staravoitau"
 lang: "en_GB"
@@ -59,47 +59,4 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/logo.png
-
-screenshots_tablet:
-  - src: /assets/img/screenshots/tablet/screenshot_v_tablet_01.png
-    thumb: /assets/img/screenshots/tablet/screenshot_v_tablet_01_thumb@2x.png
-  - src: /assets/img/screenshots/tablet/screenshot_v_tablet_02.png
-    thumb: /assets/img/screenshots/tablet/screenshot_v_tablet_02_thumb@2x.png
-  - src: /assets/img/screenshots/tablet/screenshot_v_tablet_03.png
-    thumb: /assets/img/screenshots/tablet/screenshot_v_tablet_03_thumb@2x.png
-  - src: /assets/img/screenshots/tablet/screenshot_v_tablet_04.png
-    thumb: /assets/img/screenshots/tablet/screenshot_v_tablet_04_thumb@2x.png
-  - src: /assets/img/screenshots/tablet/screenshot_v_tablet_05.png
-    thumb: /assets/img/screenshots/tablet/screenshot_v_tablet_05_thumb@2x.png
-  - src: /assets/img/screenshots/tablet/screenshot_v_tablet_06.png
-    thumb: /assets/img/screenshots/tablet/screenshot_v_tablet_06_thumb@2x.png
-  - src: /assets/img/screenshots/tablet/screenshot_v_tablet_07.png
-    thumb: /assets/img/screenshots/tablet/screenshot_v_tablet_07_thumb@2x.png
-  - src: /assets/img/screenshots/tablet/screenshot_v_tablet_08.png
-    thumb: /assets/img/screenshots/tablet/screenshot_v_tablet_08_thumb@2x.png
-  - src: /assets/img/screenshots/tablet/screenshot_v_tablet_09.png
-    thumb: /assets/img/screenshots/tablet/screenshot_v_tablet_09_thumb@2x.png
-  - src: /assets/img/screenshots/tablet/screenshot_v_tablet_10.png
-    thumb: /assets/img/screenshots/tablet/screenshot_v_tablet_10_thumb@2x.png
-
-screenshots_phone:
-  - src: /assets/img/screenshots/phone/screenshot_v_phone_01.png
-    thumb: /assets/img/screenshots/phone/screenshot_v_phone_01_thumb@2x.png
-  - src: /assets/img/screenshots/phone/screenshot_v_phone_02.png
-    thumb: /assets/img/screenshots/phone/screenshot_v_phone_02_thumb@2x.png
-  - src: /assets/img/screenshots/phone/screenshot_v_phone_03.png
-    thumb: /assets/img/screenshots/phone/screenshot_v_phone_03_thumb@2x.png
-  - src: /assets/img/screenshots/phone/screenshot_v_phone_04.png
-    thumb: /assets/img/screenshots/phone/screenshot_v_phone_04_thumb@2x.png
-  - src: /assets/img/screenshots/phone/screenshot_v_phone_05.png
-    thumb: /assets/img/screenshots/phone/screenshot_v_phone_05_thumb@2x.png
-  - src: /assets/img/screenshots/phone/screenshot_v_phone_06.png
-    thumb: /assets/img/screenshots/phone/screenshot_v_phone_06_thumb@2x.png
-  - src: /assets/img/screenshots/phone/screenshot_v_phone_07.png
-    thumb: /assets/img/screenshots/phone/screenshot_v_phone_07_thumb@2x.png
-  - src: /assets/img/screenshots/phone/screenshot_v_phone_08.png
-    thumb: /assets/img/screenshots/phone/screenshot_v_phone_08_thumb@2x.png
-  - src: /assets/img/screenshots/phone/screenshot_v_phone_09.png
-    thumb: /assets/img/screenshots/phone/screenshot_v_phone_09_thumb@2x.png
-
+      image: /assets/images/open-graph.png

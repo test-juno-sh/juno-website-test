@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Privacy Policy"
 description: "Privacy Policy"
 image: ""
@@ -17,7 +17,7 @@ The processing of personal data, such as the name or e-mail address of a data su
 
 As the controller, the Rational Matter has implemented numerous technical and organizational measures to ensure the most complete protection of personal data processed through this website. However, Internet-based data transmissions may in principle have security gaps, so absolute protection may not be guaranteed. For this reason, every data subject is free to transfer personal data to us via alternative means, e.g. by telephone.
 
-#### 1. Definitions
+### 1. Definitions
 The data protection declaration of the Rational Matter is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR). Our data protection declaration should be legible and understandable for the general public, as well as our customers and business partners. To ensure this, we would like to first explain the terminology used.
 
 In this data protection declaration, we use, inter alia, the following terms:
@@ -47,7 +47,7 @@ k) **Consent**. Consent of the data subject is any freely given, specific, infor
 l) **Application**. The software application Juno: Jupyter Notebook Client for mobile devices that was created by Rational Matter. The Application is a mobile client that provides access to arbitrary Jupyter server from an iOS device.
 
 
-#### 2. Name and Address of the controller 
+### 2. Name and Address of the controller 
 Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:
 
 Rational Matter
@@ -58,7 +58,7 @@ Phone: 020 3652 9003‬
 Email: contact@juno.sh
 Website: https://juno.sh
 
-#### 3. Collection of general data and information 
+### 3. Collection of general data and information 
 The website of the Rational Matter collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.
 
 When using these general data and information, the Rational Matter does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, the Rational Matter analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.
@@ -67,7 +67,7 @@ Applications by Rational Matter (such as Juno: Jupyter Notebook Client) collect 
 
 Same as for website data, when using these general data and information, the Rational Matter does not draw any conclusions about the data subject. Rather, this information is needed to analyze anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.
 
-#### 4. Subscription to our newsletters 
+### 4. Subscription to our newsletters 
 On the website of the Rational Matter, users are given the opportunity to subscribe to our enterprise's newsletter. The input mask used for this purpose determines what personal data are transmitted, as well as when the newsletter is ordered from the controller.
 
 The Rational Matter informs its customers and business partners regularly by means of a newsletter about enterprise offers. The enterprise's newsletter may only be received by the data subject if (1) the data subject has a valid e-mail address and (2) the data subject registers for the newsletter shipping. A confirmation e-mail will be sent to the e-mail address registered by a data subject for the first time for newsletter shipping, for legal reasons, in the double opt-in procedure. This confirmation e-mail is used to prove whether the owner of the e-mail address as the data subject is authorized to receive the newsletter.
@@ -76,17 +76,17 @@ During the registration for the newsletter, we also store the IP address of the 
 
 The personal data collected as part of a registration for the newsletter will only be used to send our newsletter. In addition, subscribers to the newsletter may be informed by e-mail, as long as this is necessary for the operation of the newsletter service or a registration in question, as this could be the case in the event of modifications to the newsletter offer, or in the event of a change in technical circumstances. There will be no transfer of personal data collected by the newsletter service to third parties. The subscription to our newsletter may be terminated by the data subject at any time. The consent to the storage of personal data, which the data subject has given for shipping the newsletter, may be revoked at any time. For the purpose of revocation of consent, a corresponding link is found in each newsletter. It is also possible to unsubscribe from the newsletter at any time directly on the website of the controller, or to communicate this to the controller in a different way.
 
-#### 5. Newsletter-Tracking 
+### 5. Newsletter-Tracking 
 The newsletter of the Rational Matter contains so-called tracking pixels. A tracking pixel is a miniature graphic embedded in such e-mails, which are sent in HTML format to enable log file recording and analysis. This allows a statistical analysis of the success or failure of online marketing campaigns. Based on the embedded tracking pixel, the Rational Matter may see if and when an e-mail was opened by a data subject, and which links in the e-mail were called up by data subjects.
 
 Such personal data collected in the tracking pixels contained in the newsletters are stored and analyzed by the controller in order to optimize the shipping of the newsletter, as well as to adapt the content of future newsletters even better to the interests of the data subject. These personal data will not be passed on to third parties. Data subjects are at any time entitled to revoke the respective separate declaration of consent issued by means of the double-opt-in procedure. After a revocation, these personal data will be deleted by the controller. The Rational Matter automatically regards a withdrawal from the receipt of the newsletter as a revocation.
 
-#### 6. Routine erasure and blocking of personal data 
+### 6. Routine erasure and blocking of personal data 
 The data controller shall process and store the personal data of the data subject only for the period necessary to achieve the purpose of storage, or as far as this is granted by the European legislator or other legislators in laws or regulations to which the controller is subject to.
 
 If the storage purpose is not applicable, or if a storage period prescribed by the European legislator or another competent legislator expires, the personal data are routinely blocked or erased in accordance with legal requirements.
 
-#### 7. Rights of the data subject 
+### 7. Rights of the data subject 
 a) **Right of confirmation**. Each data subject shall have the right granted by the European legislator to obtain from the controller the confirmation as to whether or not personal data concerning him or her are being processed. If a data subject wishes to avail himself of this right of confirmation, he or she may, at any time, contact any employee of the controller.
 
 b) **Right of access**. Each data subject shall have the right granted by the European legislator to obtain from the controller free information about his or her personal data stored at any time and a copy of this information. Furthermore, the European directives and regulations grant the data subject access to the following information:
@@ -156,7 +156,7 @@ i) **Right to withdraw data protection consent**. Each data subject shall have t
 
 If the data subject wishes to exercise the right to withdraw the consent, he or she may, at any time, contact any employee of the Rational Matter.
 
-#### 8. Data protection provisions about the application and use of Google Analytics (with anonymization function) 
+### 8. Data protection provisions about the application and use of Google Analytics (with anonymization function) 
 On this website, the controller has integrated the component of Google Analytics (with the anonymizer function). Google Analytics is a web analytics service. Web analytics is the collection, gathering, and analysis of data about the behavior of visitors to websites. A web analysis service collects, inter alia, data about the website from which a person has come (the so-called referrer), which sub-pages were visited, or how often and for what duration a sub-page was viewed. Web analytics are mainly used for the optimization of a website and in order to carry out a cost-benefit analysis of Internet advertising.
 
 The operator of the Google Analytics component is Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043-1351, United States.
@@ -175,32 +175,32 @@ In addition, the data subject has the possibility of objecting to a collection o
 
 Further information and the applicable data protection provisions of Google may be retrieved under [https://www.google.com/intl/en/policies/privacy/](https://www.google.com/intl/en/policies/privacy/) and under [http://www.google.com/analytics/terms/us.html](http://www.google.com/analytics/terms/us.html). Google Analytics is further explained under the following Link [https://www.google.com/analytics/](https://www.google.com/analytics/).
 
-#### 9. Cookies
+### 9. Cookies
 We only store cookies that are essential to the proper functioning of our website and enable you to use its features and access it securely:
 
 * `__cfduid`: DNS records held at Cloudflare enable us to provide a secure connection, they set this cookie to identify your device as trusted. Use of this cookie is further explained under the following link: [https://support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-Cloudflare-cfduid-cookie-do-](https://support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-Cloudflare-cfduid-cookie-do-).
 
-#### 10. Legal basis for the processing  
+### 10. Legal basis for the processing  
 Art. 6(1) lit. a GDPR serves as the legal basis for processing operations for which we obtain consent for a specific processing purpose. If the processing of personal data is necessary for the performance of a contract to which the data subject is party, as is the case, for example, when processing operations are necessary for the supply of goods or to provide any other service, the processing is based on Article 6(1) lit. b GDPR. The same applies to such processing operations which are necessary for carrying out pre-contractual measures, for example in the case of inquiries concerning our products or services. Is our company subject to a legal obligation by which processing of personal data is required, such as for the fulfillment of tax obligations, the processing is based on Art. 6(1) lit. c GDPR.
 
 In rare cases, the processing of personal data may be necessary to protect the vital interests of the data subject or of another natural person. This would be the case, for example, if a visitor were injured in our company and his name, age, health insurance data or other vital information would have to be passed on to a doctor, hospital or other third party. Then the processing would be based on Art. 6(1) lit. d GDPR.
 
 Finally, processing operations could be based on Article 6(1) lit. f GDPR. This legal basis is used for processing operations which are not covered by any of the abovementioned legal grounds, if processing is necessary for the purposes of the legitimate interests pursued by our company or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data. Such processing operations are particularly permissible because they have been specifically mentioned by the European legislator. He considered that a legitimate interest could be assumed if the data subject is a client of the controller (Recital 47 Sentence 2 GDPR).
 
-#### 11. The legitimate interests pursued by the controller or by a third party 
+### 11. The legitimate interests pursued by the controller or by a third party 
 Where the processing of personal data is based on Article 6(1) lit. f GDPR our legitimate interest is to carry out our business in favor of the well-being of all our employees and the shareholders.
 
-#### 12. Period for which the personal data will be stored 
+### 12. Period for which the personal data will be stored 
 The criteria used to determine the period of storage of personal data is the respective statutory retention period. After expiration of that period, the corresponding data is routinely deleted, as long as it is no longer necessary for the fulfillment of the contract or the initiation of a contract.
 
-#### 13. Provision of personal data as statutory or contractual requirement; Requirement necessary to enter into a contract; Obligation of the data subject to provide the personal data; possible consequences of failure to provide such data  
+### 13. Provision of personal data as statutory or contractual requirement; Requirement necessary to enter into a contract; Obligation of the data subject to provide the personal data; possible consequences of failure to provide such data  
 We clarify that the provision of personal data is partly required by law (e.g. tax regulations) or can also result from contractual provisions (e.g. information on the contractual partner).
 
 Sometimes it may be necessary to conclude a contract that the data subject provides us with personal data, which must subsequently be processed by us. The data subject is, for example, obliged to provide us with personal data when our company signs a contract with him or her. The non-provision of the personal data would have the consequence that the contract with the data subject could not be concluded.
 
 Before personal data is provided by the data subject, the data subject must contact any employee. The employee clarifies to the data subject whether the provision of the personal data is required by law or contract or is necessary for the conclusion of the contract, whether there is an obligation to provide the personal data and the consequences of non-provision of the personal data.
 
-#### 14. Existence of automated decision-making 
+### 14. Existence of automated decision-making 
 As a responsible company, we do not use automatic decision-making or profiling.
 
 

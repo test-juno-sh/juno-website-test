@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Frequently Asked Questions"
+layout: faq
+title: "FAQ"
 description: "Frequently asked questions about Juno, an iOS Jupyter Notebook client for iPad and iPhone."
 image: ""
 lang: "en_GB"
@@ -8,58 +8,58 @@ date: 2017-09-01 11:00:00
 author: Alex Staravoitau
 no-blog: true
 ---
-#### What is Juno?
+## What is Juno?
 [Juno](https://itunes.apple.com/app/juno-jupyter-notebook-client/id1315744137){:target="_blank"} is an iOS client for Jupyter — it lets you connect to a remote Jupyter server from your iPhone or iPad and do everything you do with Jupyter on desktop, anywhere.
 
-#### Can it run notebooks locally?
+## Can it run notebooks locally?
 No, you need a [notebook server](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} that will do the actual computing. There are many options of running a notebook server: it can be your own laptop in your local network, AWS node, or even a dedicated powerful GPU-enabled machine configured as a public server or accessible via tunneling. Alternatively, you could use one of cloud computing services that are based on Jupyter, such as [CoCalc](http://cocalc.com){:target="_blank"} or [Azure Notebooks](https://notebooks.azure.com){:target="_blank"}.
 
-#### Can I use my home PC as a Jupyter server?
+## Can I use my home PC as a Jupyter server?
 Yes, absolutely! Your PC will need to be switched on and accessible to your iOS device at all times though. There are a couple of ways of connecting to it: if your iPad or iPhone is on the same local network (say, Wi-Fi), you can just use your PC's IP address. If you would like to connect over the internet, you would need to configure your PC as a public server (see [Running a public notebook server](http://jupyter-notebook.readthedocs.io/en/stable/public_server.html#running-a-public-notebook-server){:target="_blank"} in Jupyter documentation).
 
 {:refdef: .notice}
 <i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>Keep in mind, that you will need to configure your Jupyter installation to expose it to incoming connections. There are two things you need to put in your [Jupyter config file](https://jupyter-notebook.readthedocs.io/en/stable/config.html): `NotebookApp.ip` set to `'*'`, and `NotebookApp.allow_remote_access` set to `true`.</span>
 {: refdef}
 
-#### Can I use SSH tunneling (aka port forwarding) in Juno?
+## Can I use SSH tunneling (aka port forwarding) in Juno?
 You can access your server in Juno if you have SSH tunnel established on your iOS device; however, you may need a 3rd party app to configure the port forwarding part. There are apps on the AppStore that will let you establish a tunnel with port forwarding (for example, [this one](https://itunes.apple.com/app/ssh-tunnel/id1260223542?mt=8){:target="_blank"}), and Juno will then work by pointing it at `localhost` and mapped port.
 
 {:refdef: .notice}
 <i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>We plan to include SSH tunneling capability in Juno in one of our future releases.</span>
 {: refdef}
 
-#### My server is 'Unreachable'!
+## My server is 'Unreachable'!
 Usually, this means that there is a networking issue, and most likely you just need to configure your Jupyter installation to expose it to incoming connections. There are two things you need to put in your [Jupyter config file](https://jupyter-notebook.readthedocs.io/en/stable/config.html): `NotebookApp.ip` set to `'*'`, and `NotebookApp.allow_remote_access` set to `true`.
 
-#### My notebooks won't connect!
+## My notebooks won't connect!
 Usually, this means that your server uses a self-signed SSL certificate for HTTPS which doesn't work on iOS due to security restrictions — neither in Safari nor in Juno. Check out our [step-by-step guide](/ssl-self-signed-cert){:target="_blank"} on how to configure certificates and enable SSL, so that you are able to connect to your server from your iOS device.
 
 {:refdef: .notice}
 <i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: #CCCCCC; vertical-align: middle;"></i><span style="display:inline-block; width: 8px;"></span> <span>Keep in mind that your SSL certificate must use the same server host that you specify in Juno server settings: e.g. public IP for connecting directly, `localhost` for connecting via SSH tunnel, or local IP address for connecting from the same local network.</span>
 {: refdef}
 
-#### Can I use some preconfigured server instead?
+## Can I use some preconfigured server instead?
 Yes, absolutely. If you don't want to go through the hassle of configuring your own server, you could use one of cloud computing services that are based on Jupyter, such as [CoCalc](http://cocalc.com){:target="_blank"} or [Azure Notebooks](https://notebooks.azure.com){:target="_blank"}.
 
-#### Can I use Juno with Google Colaboratory?
+## Can I use Juno with Google Colaboratory?
 Sadly, not yet. We would love to support Google Colaboratory as a cloud computing service, however, we are currently pending some additional info from the Google team. Meanwhile, I'd say it wouldn't hurt to ping them through customer support, so that they know there is interest in Juno integration. 😉
 
-#### Can't I already do all that in Safari?
+## Can't I already do all that in Safari?
 Juno can do a lot on top of what Safari has to offer! For instance, it has responsive and less intrusive interface and benefits from full hardware keyboard support.
 
-#### My hardware keyboard doesn’t have an Esc key
+## My hardware keyboard doesn’t have an Esc key
 Juno has additional binding to **Control** key, which duplicates **Esc** key and lets you enter command mode, for instance.
 
-#### I can't use assisted input using latin characters in Juno
+## I can't use assisted input using latin characters in Juno
 Unfortunately, there is a known issue with assisted input using latin characters (something similar to IME in Windows, where you use latin characters to input in Japanese, Korean or Chinese). Apparently, this issue is caused by one of the components Jupyter is using, and this issue has been reported, although not resolved yet — see discussion [here](https://github.com/codemirror/CodeMirror/issues/3137){:target="_blank"}. We are looking into a workaround for Juno, and hope to fix or at least improve international input in our future releases. Sorry for inconvenience meanwhile. 
 
-#### I can't view or edit text files in Juno
+## I can't view or edit text files in Juno
 Editing of text files is switched off for now, but we are looking into ways of either allowing it the way Jupyter normally does, or at least letting you open copies of those files in other apps. Sorry for inconvenience meanwhile.
 
-#### Does Juno support JupyterLab?
+## Does Juno support JupyterLab?
 Juno doesn't support any JupyterLab specific features yet; however, all JupyterLab servers also include “classic" Jupyter Notebook as a fallback option, which Juno works perfectly with. JupyterLab servers should be detected automatically in Juno, redirecting to this "classic" interface — if your server keeps loading JupyterLab, try appending `/tree` to your JupyterLab server URL. 
 
-#### We use Jupyter products in our organization
+## We use Jupyter products in our organization
 If your workflow involves Jupyter notebooks and:
 * You would like **Juno** to have a deeper integration with your internal services.
 * You want to fit **Juno** into your organization's infrastructure.
@@ -67,10 +67,10 @@ If your workflow involves Jupyter notebooks and:
 
 Please, send an inquiry to [contact@juno.sh](mailto:contact@juno.sh), and we will be happy to help.
 
-#### I discovered a defect
+## I discovered a defect
 Please, report all defects and send feature requests to [feedback@juno.sh](mailto:feedback@juno.sh).
 
-#### I can't get it to work!
+## I can't get it to work!
 Please, check out [Jupyter documentation](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html){:target="_blank"} on running a notebook server, or send an e-mail to [help@juno.sh](mailto:help@juno.sh).
 
 {:refdef: .notice}
