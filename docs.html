@@ -1,103 +1,30 @@
-<!DOCTYPE html>
-<html class="html html--nojs" lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <title>Docs</title>
-    <meta name="description" content="Docs"/>
-    <meta property="og:url"/>
-    <meta property="og:title" content="Docs"/>
-    <meta property="og:description" content="Docs"/>
-    <meta property="og:image" content="images/open-graph.png"/>
-    <meta property="og:site_name" content="Jupyter client for iOS"/>
-    <meta property="og:type" content="article"/>
-    <meta property="fb:app_id" content=""/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:site" content="@junoclient"/>
-    <meta name="twitter:creator" content="@junoclient"/>
-    <meta name="twitter:domain" content="https://juno.sh"/>
-    <link sizes="152x152" href="images/apple-touch-icon.png?1559948131190" rel="apple-touch-icon-precomposed"/>
-    <link sizes="32x32" href="images/favicon-32.png?1559948131190" rel="icon" type="image/png"/>
-    <link sizes="16x16" href="images/favicon-16.png?1559948131190" rel="icon" type="image/png"/>
-    <link href="styles/styles.css?1559948131190" rel="stylesheet"/>
-  </head>
-  <body class="body">
-    <div class="body__header">
-      <header class="header">
-        <div class="header__explicit">
-          <ul class="header__menu">
-            <li class="header__item header__item--juno"><a class="header__link" href="juno.html"><span>juno</span></a></li>
-            <li class="header__item header__item--junoconnect"><a class="header__link" href="juno-connect.html"><span>juno connected</span></a></li>
-          </ul>
-        </div>
-        <div class="header__burger">
-          <div class="burger">
-            <div class="burger__line"></div>
-            <div class="burger__line"></div>
-            <div class="burger__line"></div>
-          </div>
-        </div>
-        <div class="header__implicit">
-          <ul class="header__menu">
-            <li class="header__item"><a class="header__link" href="docs.html"><span>Docs</span></a></li>
-            <li class="header__item"><a class="header__link" href="blog.html"><span>Blog</span></a></li>
-            <li class="header__item"><a class="header__link" href="faq.html"><span>FAQ</span></a></li>
-          </ul>
-        </div>
-      </header>
-    </div>
-    <div class="body__body">
-      <div class="body__title">
-        <div class="title">
-          <h1 class="title__heading">Docs</h1>
+---
+layout: default
+title: Docs
+description: ""
+permalink: /docs/
+---
+<div class="teasers">
+
+  <! -- DOCS LIST -->
+
+  {% assign docs = site.docs | sort: 'date' | reverse %}
+  {% for doc in docs %}
+    {% if doc.no-blog %}
+    {% else %}
+      <! -- Docs -->
+
+      <div class="teasers__item">
+        <div class="teaser">
+          <h3 class="teaser__title">
+            <a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a>
+          </h3>
+          <div class="teaser__snippet">{{ doc.excerpt }}</div>
+          <a class="teaser__readmore" href="{{ doc.url | prepend: site.baseurl }}">Read More</a>
         </div>
       </div>
-      <div class="body__content">
-        <div class="teasers">
-          <div class="teasers__item">
-            <div class="teaser">
-              <h3 class="teaser__title"><a href="doc.html">How To Configure SSL/TLS for MySQL on Ubuntu 18.04</a></h3>
-              <div class="teaser__snippet">Learn how to add reports, invite team members, export your data, and more…</div><a class="teaser__readmore" href="doc.html">Read More</a>
-            </div>
-          </div>
-          <div class="teasers__item">
-            <div class="teaser">
-              <h3 class="teaser__title"><a href="doc.html">Plans and Billing</a></h3><a class="teaser__readmore" href="doc.html">Read More</a>
-            </div>
-          </div>
-          <div class="teasers__item">
-            <div class="teaser">
-              <h3 class="teaser__title"><a href="doc.html">Juno 1.3 adds Binder integration</a></h3>
-              <div class="teaser__snippet">Juno now supports Binder, a service for launching git repositories with notebooks as executable Jupyter environments.</div><a class="teaser__readmore" href="doc.html">Read More</a>
-            </div>
-          </div>
-          <div class="teasers__pagination">
-            <ul class="pagination">
-              <li class="pagination__item"><a class="pagination__link" href="blog.html">Next</a></li>
-            </ul>
-          </div>
-          <div class="teasers__pagination">
-            <ul class="pagination">
-              <li class="pagination__item"><a class="pagination__link" href="blog.html">Prev<span>ious</span></a></li>
-              <li class="pagination__item"><a class="pagination__link" href="blog.html">Next</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="body__footer">
-        <footer class="footer">
-          <div class="footer__left">© 2018 Juno, Rational Matter</div>
-          <div class="footer__right">
-            <ul class="footer__menu">
-              <li class="footer__item"><a class="footer__link" href="pp.html">Privacy Policy</a></li>
-              <li class="footer__item"><a class="footer__link footer__link--twitter" href="https://twitter.com/junoclient" target="_black">junoclient</a></li>
-              <li class="footer__item"><a class="footer__link" href="mailto:contact@juno.sh"> contact@juno.sh</a></li>
-            </ul>
-          </div>
-        </footer>
-      </div>
-    </div>
-    <script src="scripts/scripts.js?1559948131191"></script>
-  </body>
-</html>
+
+    {% endif %}
+  {% endfor %}
+
+</div>
