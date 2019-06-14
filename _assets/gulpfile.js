@@ -20,6 +20,7 @@
       src: [
         'node_modules/jquery/dist/jquery.js',
         'node_modules/waypoints/lib/jquery.waypoints.js',
+        'scripts/retina-1.1.0.js',
         'scripts/scripts.js'
       ],
       dest: '../assets/scripts'

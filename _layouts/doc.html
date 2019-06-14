@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="html html--nojs" lang="en">
+
+  {% include head.html %}
+
+  <body class="body">
+    <div class="body__header">
+
+      {% include header.html %}
+
+    </div>
+    <div class="body__body">
+      <div class="body__title">
+        <div class="title title--white">
+          <div class="title__breadcrumbs">
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/">Docs</a></li>
+            </ul>
+          </div>
+          <h1 class="title__heading">{{ page.title }}</h1>
+        </div>
+      </div>
+      <div class="body__content body__content--white">
+        <div class="page">
+
+          {{ content }}
+
+        </div>
+      </div>
+      <div class="body__footer">
+
+        {% include footer.html %}
+
+      </div>
+    </div>
+
+    {% include script.html %}
+
+  </body>
+</html>
