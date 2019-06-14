@@ -60,8 +60,3 @@ defaults:
       path: ""
     values:
       image: /assets/images/open-graph.png
-
-collections:
-  docs:
-    permalink: /:collection/:title/
-    output: true
