@@ -33,7 +33,7 @@ If `which` command does not return a path then you will need to install openssl 
 
 [Download configuration file](/images/openssl.cnf) and put it in the folder, where you are going to store your SSH keys and certificates. 
 
-Open configuration file in a text editor of your choice and put domain names and/or IP addresses of your servers at the bottom, in the *[ alt_names ]* section. If you connect to your server using its IP address (which happens to be **192.168.0.1**), your configuration file should end with:
+Open configuration file in a text editor of your choice and put domain names and/or IP addresses of your servers at the bottom, in the (should be bold ->) *[ alt_names ]* section. If you connect to your server using its IP address (which happens to be **192.168.0.1**), your configuration file should end with:
 
 ```
 ...
