@@ -93,7 +93,6 @@
           },
           offset: '100%'
       } );
-
   } );
 
 } )( jQuery, window, document );
