@@ -8,15 +8,20 @@
 
 .body
   position: relative
-  background-color: $black
 
   .body__body
-    margin-top: 100px
-    background-color: $white
     min-height: calc(100vh - 100px)
+    margin-top: 100px
+
+  .html--black &
+    background-color: $black
 
   .html--black & .body__body
     background-color: transparent
+
+  .html--default & .body__body
+    min-height: 100vh
+    margin-top: 0
 
   .body__header
     position: fixed
@@ -45,6 +50,10 @@
       margin-top: 130px
       min-height: calc(100vh - 130px)
 
+    .html--default & .body__body
+      min-height: 100vh
+      margin-top: 0
+
     .body__content
       padding-top: 92px
 
@@ -61,9 +70,13 @@
       margin-top: 156px
       min-height: calc(100vh - 156px)
 
+    .html--default & .body__body
+      min-height: 100vh
+      margin-top: 0
+
 .title
   background-color: $black
-  padding-top: 8px
+  padding-top: 108px
   padding-bottom: 25px
   color: $white
 
@@ -100,7 +113,7 @@
       margin-top: 17px
 
   @media screen and (min-width: 768px)
-    padding-top: 0
+    padding-top: 130px
     padding-bottom: 30px
 
     .title__heading
@@ -121,6 +134,7 @@
         margin-top: 19px
 
   @media screen and (min-width: 1272px)
+    padding-top: 156px
     padding-bottom: 36px
 
     .title__heading
